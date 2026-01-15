@@ -14,7 +14,11 @@ import {
   getFeaturedItems,
   getAllCategories,
   getItemById,
+  getCategoryById,
+  getItemsByCategory,
+  getRelatedItems,
 } from './index'
+import { CategoryId } from '@/types/category'
 
 describe('Static Data - getAllItems', () => {
   it('should return all items from JSON', () => {
@@ -156,5 +160,103 @@ describe('Static Data - getItemById', () => {
     const found = getItemById('non-existent-id')
 
     expect(found).toBeUndefined()
+  })
+})
+
+describe('Static Data - getCategoryById', () => {
+  it('should return category by id', () => {
+    const found = getCategoryById('device')
+
+    expect(found).toBeDefined()
+    expect(found?.id).toBe('device')
+    expect(found?.name).toBe('デバイス')
+  })
+
+  it('should return undefined for non-existent id', () => {
+    const found = getCategoryById('invalid' as CategoryId)
+
+    expect(found).toBeUndefined()
+  })
+})
+
+describe('Static Data - getItemsByCategory', () => {
+  it('should return all items in category', () => {
+    const result = getItemsByCategory('device')
+
+    expect(result.items.length).toBeGreaterThan(0)
+    result.items.forEach((item) => {
+      expect(item.category).toBe('device')
+    })
+  })
+
+  it('should include category info and subCategories', () => {
+    const result = getItemsByCategory('device')
+
+    expect(result.category).toBeDefined()
+    expect(result.category?.id).toBe('device')
+    expect(result.subCategories.length).toBeGreaterThan(0)
+    expect(result.totalCount).toBe(result.items.length)
+  })
+
+  it('should filter by subCategory', () => {
+    const result = getItemsByCategory('device', { subCategory: 'モニター' })
+
+    result.items.forEach((item) => {
+      expect(item.subCategory).toBe('モニター')
+    })
+  })
+
+  it('should sort by score by default', () => {
+    const result = getItemsByCategory('device')
+
+    for (let i = 0; i < result.items.length - 1; i++) {
+      expect(result.items[i].score).toBeGreaterThanOrEqual(result.items[i + 1].score)
+    }
+  })
+
+  it('should sort by newest when specified', () => {
+    const result = getItemsByCategory('device', { sortBy: 'newest' })
+
+    for (let i = 0; i < result.items.length - 1; i++) {
+      const current = new Date(result.items[i].createdAt).getTime()
+      const next = new Date(result.items[i + 1].createdAt).getTime()
+      expect(current).toBeGreaterThanOrEqual(next)
+    }
+  })
+
+  it('should return empty for invalid category', () => {
+    const result = getItemsByCategory('invalid' as CategoryId)
+
+    expect(result.items.length).toBe(0)
+    expect(result.category).toBeUndefined()
+  })
+})
+
+describe('Static Data - getRelatedItems', () => {
+  it('should return items from same category excluding current item', () => {
+    const items = getAllItems()
+    const currentItem = items[0]
+    const related = getRelatedItems(currentItem.id, 3)
+
+    expect(related.length).toBeLessThanOrEqual(3)
+    related.forEach((item) => {
+      expect(item.id).not.toBe(currentItem.id)
+      expect(item.category).toBe(currentItem.category)
+    })
+  })
+
+  it('should return empty array for invalid item', () => {
+    const related = getRelatedItems('invalid-id', 3)
+
+    expect(related.length).toBe(0)
+  })
+
+  it('should sort by score', () => {
+    const items = getAllItems()
+    const related = getRelatedItems(items[0].id, 5)
+
+    for (let i = 0; i < related.length - 1; i++) {
+      expect(related[i].score).toBeGreaterThanOrEqual(related[i + 1].score)
+    }
   })
 })
