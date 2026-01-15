@@ -1,10 +1,11 @@
 /**
  * ヘッダーコンポーネント
- * 仕様書: specs/01-top-page.md
+ * 仕様書: specs/01-top-page.md, specs/07-search.md
  */
 
 import Link from 'next/link'
 import { getAllCategories } from '@/data'
+import { SearchBox } from '@/components/ui/SearchBox'
 
 export function Header() {
   const categories = getAllCategories()
@@ -12,16 +13,21 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 w-full border-b border-gray-200 bg-white/80 backdrop-blur-sm">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="flex h-16 items-center justify-between">
+        <div className="flex h-16 items-center justify-between gap-4">
           {/* ロゴ */}
-          <Link href="/" className="flex items-center space-x-2">
+          <Link href="/" className="flex items-center space-x-2 shrink-0">
             <span className="text-xl font-bold text-gray-900">
               DeskItemRank
             </span>
           </Link>
 
+          {/* 検索ボックス */}
+          <div className="hidden sm:block flex-1 max-w-md">
+            <SearchBox />
+          </div>
+
           {/* ナビゲーション */}
-          <nav className="hidden md:flex md:space-x-8">
+          <nav className="hidden md:flex md:space-x-8 shrink-0">
             {categories.map((category) => (
               <Link
                 key={category.id}
