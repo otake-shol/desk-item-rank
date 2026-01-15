@@ -3,7 +3,8 @@
  * 仕様書: specs/04-static-data.md
  */
 
-const DEFAULT_AMAZON_ASSOCIATE_TAG = 'otkshol01-22'
+// アフィリエイトタグ（Amazon Associates承認後に設定）
+const DEFAULT_AMAZON_ASSOCIATE_TAG = ''
 
 /**
  * アフィリエイトタグを取得
@@ -19,5 +20,8 @@ export function getAffiliateTag(): string {
  */
 export function generateAmazonAffiliateUrl(asin: string): string {
   const tag = getAffiliateTag()
-  return `https://www.amazon.co.jp/dp/${asin}?tag=${tag}`
+  if (tag) {
+    return `https://www.amazon.co.jp/dp/${asin}?tag=${tag}`
+  }
+  return `https://www.amazon.co.jp/dp/${asin}`
 }
