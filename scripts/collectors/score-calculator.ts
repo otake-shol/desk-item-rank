@@ -18,11 +18,12 @@ export interface NormalizedFactors {
 }
 
 // 正規化の基準値（これらの値が1.0に相当）
+// デスクアイテムのニッチな市場に合わせた現実的な値
 const NORMALIZATION_BASE = {
-  twitterMentions: 1000, // 1000ツイートが最高
-  twitterEngagement: 5000, // 5000エンゲージメントが最高
-  youtubeViews: 100000, // 10万再生が最高
-  youtubeEngagement: 10000, // 1万エンゲージメントが最高
+  twitterMentions: 500, // 500ツイートで満点
+  twitterEngagement: 2500, // 2500エンゲージメントで満点
+  youtubeViews: 10000, // 1万再生で満点
+  youtubeEngagement: 1000, // 1000エンゲージメントで満点
 }
 
 /**
@@ -64,10 +65,10 @@ export function calculateScore(factors: ScoreFactors): number {
  */
 export function generateMockFactors(): ScoreFactors {
   return {
-    twitterMentions: Math.floor(Math.random() * 2000),
-    twitterEngagement: Math.floor(Math.random() * 8000),
-    youtubeViews: Math.floor(Math.random() * 200000),
-    youtubeEngagement: Math.floor(Math.random() * 15000),
+    twitterMentions: Math.floor(Math.random() * 600),
+    twitterEngagement: Math.floor(Math.random() * 3000),
+    youtubeViews: Math.floor(Math.random() * 15000),
+    youtubeEngagement: Math.floor(Math.random() * 1500),
   }
 }
 
