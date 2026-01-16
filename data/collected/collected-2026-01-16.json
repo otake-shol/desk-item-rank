@@ -1,0 +1,182 @@
+[
+  {
+    "itemId": "monitor-dell-u2723qe",
+    "itemName": "Dell U2723QE 27インチ 4K USB-Cハブモニター",
+    "twitter": {
+      "tweetCount": 35,
+      "totalLikes": 451,
+      "totalRetweets": 551,
+      "totalReplies": 107
+    },
+    "youtube": {
+      "videoCount": 0,
+      "totalViews": 0,
+      "totalLikes": 0,
+      "totalComments": 0
+    },
+    "calculatedScore": 15,
+    "timestamp": "2026-01-16T00:20:11.480Z"
+  },
+  {
+    "itemId": "keyboard-hhkb-hybrid",
+    "itemName": "HHKB Professional HYBRID Type-S",
+    "twitter": {
+      "tweetCount": 195,
+      "totalLikes": 2940,
+      "totalRetweets": 316,
+      "totalReplies": 381
+    },
+    "youtube": {
+      "videoCount": 3,
+      "totalViews": 4529,
+      "totalLikes": 62,
+      "totalComments": 42
+    },
+    "calculatedScore": 49,
+    "timestamp": "2026-01-16T00:20:12.754Z"
+  },
+  {
+    "itemId": "mouse-logicool-mx-master3s",
+    "itemName": "Logicool MX Master 3S",
+    "twitter": {
+      "tweetCount": 381,
+      "totalLikes": 2828,
+      "totalRetweets": 353,
+      "totalReplies": 309
+    },
+    "youtube": {
+      "videoCount": 5,
+      "totalViews": 4522,
+      "totalLikes": 37,
+      "totalComments": 7
+    },
+    "calculatedScore": 58,
+    "timestamp": "2026-01-16T00:20:14.114Z"
+  },
+  {
+    "itemId": "headphone-sony-wh1000xm5",
+    "itemName": "Sony WH-1000XM5",
+    "twitter": {
+      "tweetCount": 462,
+      "totalLikes": 236,
+      "totalRetweets": 950,
+      "totalReplies": 281
+    },
+    "youtube": {
+      "videoCount": 10,
+      "totalViews": 53500,
+      "totalLikes": 1306,
+      "totalComments": 240
+    },
+    "calculatedScore": 95,
+    "timestamp": "2026-01-16T00:20:15.564Z"
+  },
+  {
+    "itemId": "desk-flexispot-e7",
+    "itemName": "FlexiSpot E7 電動昇降デスク",
+    "twitter": {
+      "tweetCount": 432,
+      "totalLikes": 1472,
+      "totalRetweets": 92,
+      "totalReplies": 403
+    },
+    "youtube": {
+      "videoCount": 1,
+      "totalViews": 14,
+      "totalLikes": 1,
+      "totalComments": 2
+    },
+    "calculatedScore": 39,
+    "timestamp": "2026-01-16T00:20:16.954Z"
+  },
+  {
+    "itemId": "chair-ergohuman-pro",
+    "itemName": "エルゴヒューマン プロ オットマン",
+    "twitter": {
+      "tweetCount": 196,
+      "totalLikes": 4859,
+      "totalRetweets": 134,
+      "totalReplies": 404
+    },
+    "youtube": {
+      "videoCount": 0,
+      "totalViews": 0,
+      "totalLikes": 0,
+      "totalComments": 0
+    },
+    "calculatedScore": 32,
+    "timestamp": "2026-01-16T00:20:18.169Z"
+  },
+  {
+    "itemId": "monitor-arm-ergotron-lx",
+    "itemName": "エルゴトロン LX デスクマウントアーム",
+    "twitter": {
+      "tweetCount": 70,
+      "totalLikes": 4167,
+      "totalRetweets": 448,
+      "totalReplies": 168
+    },
+    "youtube": {
+      "videoCount": 0,
+      "totalViews": 0,
+      "totalLikes": 0,
+      "totalComments": 0
+    },
+    "calculatedScore": 24,
+    "timestamp": "2026-01-16T00:20:19.452Z"
+  },
+  {
+    "itemId": "desk-light-benq-screenbar",
+    "itemName": "BenQ ScreenBar モニターライト",
+    "twitter": {
+      "tweetCount": 141,
+      "totalLikes": 1415,
+      "totalRetweets": 968,
+      "totalReplies": 490
+    },
+    "youtube": {
+      "videoCount": 4,
+      "totalViews": 2782,
+      "totalLikes": 25,
+      "totalComments": 0
+    },
+    "calculatedScore": 37,
+    "timestamp": "2026-01-16T00:20:20.946Z"
+  },
+  {
+    "itemId": "desk-mat-grovemade",
+    "itemName": "Grovemade デスクマット",
+    "twitter": {
+      "tweetCount": 119,
+      "totalLikes": 565,
+      "totalRetweets": 317,
+      "totalReplies": 360
+    },
+    "youtube": {
+      "videoCount": 0,
+      "totalViews": 0,
+      "totalLikes": 0,
+      "totalComments": 0
+    },
+    "calculatedScore": 17,
+    "timestamp": "2026-01-16T00:20:22.208Z"
+  },
+  {
+    "itemId": "ambient-light-philips-hue",
+    "itemName": "Philips Hue Play ライトバー",
+    "twitter": {
+      "tweetCount": 445,
+      "totalLikes": 1447,
+      "totalRetweets": 133,
+      "totalReplies": 32
+    },
+    "youtube": {
+      "videoCount": 0,
+      "totalViews": 0,
+      "totalLikes": 0,
+      "totalComments": 0
+    },
+    "calculatedScore": 40,
+    "timestamp": "2026-01-16T00:20:23.454Z"
+  }
+]

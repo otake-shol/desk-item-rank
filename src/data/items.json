@@ -8,7 +8,7 @@
       "imageUrl": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=400&h=300&fit=crop",
       "category": "device",
       "subCategory": "monitor",
-      "score": 39,
+      "score": 15,
       "amazon": {
         "asin": "B0CV3F5HDK",
         "url": "https://www.amazon.co.jp/dp/B0CV3F5HDK",
@@ -28,7 +28,7 @@
       "createdAt": "2024-01-01",
       "updatedAt": "2024-01-15",
       "socialScore": {
-        "twitter": 80,
+        "twitter": 8,
         "youtube": 0,
         "amazon": 50
       }
@@ -41,7 +41,7 @@
       "imageUrl": "https://m.media-amazon.com/images/I/71qHq6NIqIL._AC_SX300_SY300_QL70_ML2_.jpg",
       "category": "device",
       "subCategory": "keyboard",
-      "score": 40,
+      "score": 49,
       "amazon": {
         "asin": "B082TYNNL2",
         "url": "https://www.amazon.co.jp/dp/B082TYNNL2",
@@ -60,7 +60,7 @@
       "createdAt": "2024-01-05",
       "updatedAt": "2024-01-10",
       "socialScore": {
-        "twitter": 19,
+        "twitter": 49,
         "youtube": 3,
         "amazon": 50
       }
@@ -73,7 +73,7 @@
       "imageUrl": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=400&h=300&fit=crop",
       "category": "device",
       "subCategory": "mouse",
-      "score": 59,
+      "score": 58,
       "amazon": {
         "asin": "B0B1Q6VB16",
         "url": "https://www.amazon.co.jp/dp/B0B1Q6VB16",
@@ -92,7 +92,7 @@
       "createdAt": "2024-01-08",
       "updatedAt": "2024-01-12",
       "socialScore": {
-        "twitter": 88,
+        "twitter": 66,
         "youtube": 5,
         "amazon": 50
       }
@@ -105,7 +105,7 @@
       "imageUrl": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400&h=300&fit=crop",
       "category": "device",
       "subCategory": "headphone",
-      "score": 77,
+      "score": 95,
       "amazon": {
         "asin": "B09Z2QYYD1",
         "url": "https://www.amazon.co.jp/dp/B09Z2QYYD1",
@@ -124,7 +124,7 @@
       "createdAt": "2024-01-14",
       "updatedAt": "2024-01-14",
       "socialScore": {
-        "twitter": 21,
+        "twitter": 49,
         "youtube": 15,
         "amazon": 50
       }
@@ -137,7 +137,7 @@
       "imageUrl": "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?w=400&h=300&fit=crop",
       "category": "furniture",
       "subCategory": "desk",
-      "score": 33,
+      "score": 39,
       "amazon": {
         "asin": "B08F7MQL3S",
         "url": "https://www.amazon.co.jp/dp/B08F7MQL3S",
@@ -155,7 +155,7 @@
       "createdAt": "2024-01-02",
       "updatedAt": "2024-01-10",
       "socialScore": {
-        "twitter": 66,
+        "twitter": 58,
         "youtube": 1,
         "amazon": 50
       }
@@ -168,7 +168,7 @@
       "imageUrl": "https://images.unsplash.com/photo-1580480055273-228ff5388ef8?w=400&h=300&fit=crop",
       "category": "furniture",
       "subCategory": "chair",
-      "score": 22,
+      "score": 32,
       "amazon": {
         "asin": "B00LHADDFG",
         "url": "https://www.amazon.co.jp/dp/B00LHADDFG",
@@ -186,7 +186,7 @@
       "createdAt": "2024-01-03",
       "updatedAt": "2024-01-08",
       "socialScore": {
-        "twitter": 35,
+        "twitter": 68,
         "youtube": 0,
         "amazon": 50
       }
@@ -199,7 +199,7 @@
       "imageUrl": "https://m.media-amazon.com/images/I/61lNUiCXqAL._AC_SY300_SX300_QL70_ML2_.jpg",
       "category": "furniture",
       "subCategory": "monitor-arm",
-      "score": 23,
+      "score": 24,
       "amazon": {
         "asin": "B00358RIRC",
         "url": "https://www.amazon.co.jp/dp/B00358RIRC",
@@ -217,7 +217,7 @@
       "createdAt": "2024-01-13",
       "updatedAt": "2024-01-13",
       "socialScore": {
-        "twitter": 47,
+        "twitter": 49,
         "youtube": 0,
         "amazon": 50
       }
@@ -230,7 +230,7 @@
       "imageUrl": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=400&h=300&fit=crop",
       "category": "lighting",
       "subCategory": "desk-light",
-      "score": 39,
+      "score": 37,
       "amazon": {
         "asin": "B0785D93KD",
         "url": "https://www.amazon.co.jp/dp/B0785D93KD",
@@ -249,7 +249,7 @@
       "createdAt": "2024-01-04",
       "updatedAt": "2024-01-09",
       "socialScore": {
-        "twitter": 34,
+        "twitter": 28,
         "youtube": 4,
         "amazon": 50
       }
@@ -262,7 +262,7 @@
       "imageUrl": "https://images.unsplash.com/photo-1616628188859-7a11abb6fcc9?w=400&h=300&fit=crop",
       "category": "lighting",
       "subCategory": "desk-mat",
-      "score": 15,
+      "score": 17,
       "amazon": {
         "asin": "B08QS64X7J",
         "url": "https://www.amazon.co.jp/dp/B08QS64X7J",
@@ -280,7 +280,7 @@
       "createdAt": "2024-01-06",
       "updatedAt": "2024-01-11",
       "socialScore": {
-        "twitter": 16,
+        "twitter": 18,
         "youtube": 0,
         "amazon": 50
       }
@@ -293,7 +293,7 @@
       "imageUrl": "https://images.unsplash.com/photo-1545127398-14699f92334b?w=400&h=300&fit=crop",
       "category": "lighting",
       "subCategory": "ambient-light",
-      "score": 17,
+      "score": 40,
       "amazon": {
         "asin": "B07YSP7QYX",
         "url": "https://www.amazon.co.jp/dp/B07YSP7QYX",
@@ -312,7 +312,7 @@
       "createdAt": "2024-01-12",
       "updatedAt": "2024-01-12",
       "socialScore": {
-        "twitter": 19,
+        "twitter": 59,
         "youtube": 0,
         "amazon": 50
       }
