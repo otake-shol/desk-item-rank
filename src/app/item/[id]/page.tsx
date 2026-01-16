@@ -56,10 +56,6 @@ export default async function ItemPage({ params }: ItemPageProps) {
   const relatedItems = getRelatedItems(item.id, 4)
   const affiliateUrl = generateAmazonAffiliateUrl(item.amazon.asin)
 
-  // スター表示用
-  const fullStars = Math.floor(item.score / 20)
-  const hasHalfStar = (item.score % 20) >= 10
-
   const breadcrumbs = [
     { name: 'ホーム', url: '/' },
     { name: category?.name || item.category, url: `/category/${item.category}` },
@@ -99,7 +95,7 @@ export default async function ItemPage({ params }: ItemPageProps) {
                   src={item.imageUrl || '/images/placeholder.jpg'}
                   alt={item.name}
                   fill
-                  className="object-cover"
+                  className="object-contain p-4"
                   sizes="(max-width: 1024px) 100vw, 50vw"
                 />
               </div>
@@ -117,37 +113,6 @@ export default async function ItemPage({ params }: ItemPageProps) {
                 <h1 className="mb-4 text-2xl font-bold text-white lg:text-3xl">
                   {item.name}
                 </h1>
-
-                {/* スコア */}
-                <div className="mb-4 flex items-center gap-3">
-                  <div className="flex items-center gap-1 rounded-lg border border-[#7c3aed]/30 bg-[#7c3aed]/10 px-3 py-1.5">
-                    <svg className="h-5 w-5 text-[#7c3aed]" fill="currentColor" viewBox="0 0 20 20">
-                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                    </svg>
-                    <span className="text-lg font-bold text-[#7c3aed]">
-                      {item.score}
-                    </span>
-                    <span className="text-sm text-[#8888a0]">/ 100</span>
-                  </div>
-                  <div className="flex">
-                    {[...Array(5)].map((_, i) => (
-                      <svg
-                        key={i}
-                        className={`h-5 w-5 ${
-                          i < fullStars
-                            ? 'text-[#ffaa00]'
-                            : i === fullStars && hasHalfStar
-                              ? 'text-[#ffaa00]'
-                              : 'text-[#8888a0]/30'
-                        }`}
-                        fill="currentColor"
-                        viewBox="0 0 20 20"
-                      >
-                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                      </svg>
-                    ))}
-                  </div>
-                </div>
 
                 {/* 価格 */}
                 {item.amazon.price && (
@@ -169,6 +134,15 @@ export default async function ItemPage({ params }: ItemPageProps) {
                     </span>
                   ))}
                 </div>
+
+                {/* 詳細説明 */}
+                {item.description && (
+                  <div className="mb-6">
+                    <p className="whitespace-pre-wrap text-sm leading-relaxed text-[#c8c8d0]">
+                      {item.description}
+                    </p>
+                  </div>
+                )}
 
                 {/* Amazonボタン */}
                 <a
