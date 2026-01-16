@@ -3,180 +3,298 @@
     "itemId": "monitor-dell-u2723qe",
     "itemName": "Dell U2723QE 27インチ 4K USB-Cハブモニター",
     "twitter": {
-      "tweetCount": 313,
-      "totalLikes": 4888,
-      "totalRetweets": 189,
-      "totalReplies": 148
+      "tweetCount": 345,
+      "totalLikes": 1170,
+      "totalRetweets": 476,
+      "totalReplies": 333
     },
     "youtube": {
-      "videoCount": 0,
-      "totalViews": 0,
-      "totalLikes": 0,
-      "totalComments": 0
+      "videoCount": 25,
+      "totalViews": 233212,
+      "totalLikes": 3992,
+      "totalComments": 2222
     },
-    "calculatedScore": 39,
-    "timestamp": "2026-01-15T15:07:14.500Z"
+    "note": {
+      "articleCount": 2,
+      "totalLikes": 9,
+      "articles": [
+        {
+          "title": "Dell S2725QC-A 4Kモニター徹底解説！USB-C一本で快適なデスク環境へ",
+          "url": "https://note.com/torataka50/n/n152c34b490ab",
+          "author": "",
+          "likes": 1,
+          "date": "2日前"
+        },
+        {
+          "title": "非ゲーマーのための最強ディスプレイ構成論。27インチ4Kと「Tie Fighter」配置の魔力｜Geminiと思考実験ログ Vol.016",
+          "url": "https://note.com/otola/n/nd063ca1ff83b",
+          "author": "",
+          "likes": 8,
+          "date": "7日前"
+        }
+      ]
+    },
+    "calculatedScore": 72,
+    "timestamp": "2026-01-15T15:28:20.784Z"
   },
   {
     "itemId": "keyboard-hhkb-hybrid",
     "itemName": "HHKB Professional HYBRID Type-S",
     "twitter": {
-      "tweetCount": 47,
-      "totalLikes": 1474,
-      "totalRetweets": 829,
-      "totalReplies": 336
+      "tweetCount": 509,
+      "totalLikes": 3891,
+      "totalRetweets": 431,
+      "totalReplies": 82
     },
     "youtube": {
-      "videoCount": 3,
-      "totalViews": 4501,
-      "totalLikes": 62,
-      "totalComments": 42
+      "videoCount": 41,
+      "totalViews": 246708,
+      "totalLikes": 14031,
+      "totalComments": 3909
     },
-    "calculatedScore": 40,
-    "timestamp": "2026-01-15T15:07:15.825Z"
+    "note": {
+      "articleCount": 0,
+      "totalLikes": 0,
+      "articles": []
+    },
+    "calculatedScore": 80,
+    "timestamp": "2026-01-15T15:28:21.790Z"
   },
   {
     "itemId": "mouse-logicool-mx-master3s",
     "itemName": "Logicool MX Master 3S",
     "twitter": {
-      "tweetCount": 406,
-      "totalLikes": 4730,
-      "totalRetweets": 768,
-      "totalReplies": 277
+      "tweetCount": 330,
+      "totalLikes": 1799,
+      "totalRetweets": 340,
+      "totalReplies": 469
     },
     "youtube": {
-      "videoCount": 5,
-      "totalViews": 4488,
-      "totalLikes": 37,
-      "totalComments": 7
+      "videoCount": 51,
+      "totalViews": 197076,
+      "totalLikes": 12075,
+      "totalComments": 1883
     },
-    "calculatedScore": 59,
-    "timestamp": "2026-01-15T15:07:17.124Z"
+    "note": {
+      "articleCount": 0,
+      "totalLikes": 0,
+      "articles": []
+    },
+    "calculatedScore": 71,
+    "timestamp": "2026-01-15T15:28:22.791Z"
   },
   {
     "itemId": "headphone-sony-wh1000xm5",
     "itemName": "Sony WH-1000XM5",
     "twitter": {
-      "tweetCount": 125,
-      "totalLikes": 886,
-      "totalRetweets": 1004,
-      "totalReplies": 468
+      "tweetCount": 292,
+      "totalLikes": 2022,
+      "totalRetweets": 643,
+      "totalReplies": 150
     },
     "youtube": {
-      "videoCount": 10,
-      "totalViews": 52806,
-      "totalLikes": 1304,
-      "totalComments": 235
+      "videoCount": 39,
+      "totalViews": 380981,
+      "totalLikes": 2763,
+      "totalComments": 4435
     },
-    "calculatedScore": 77,
-    "timestamp": "2026-01-15T15:07:18.475Z"
+    "note": {
+      "articleCount": 0,
+      "totalLikes": 0,
+      "articles": []
+    },
+    "calculatedScore": 70,
+    "timestamp": "2026-01-15T15:28:23.792Z"
   },
   {
     "itemId": "desk-flexispot-e7",
     "itemName": "FlexiSpot E7 電動昇降デスク",
     "twitter": {
-      "tweetCount": 206,
-      "totalLikes": 4525,
-      "totalRetweets": 212,
-      "totalReplies": 344
+      "tweetCount": 107,
+      "totalLikes": 4209,
+      "totalRetweets": 162,
+      "totalReplies": 438
     },
     "youtube": {
-      "videoCount": 1,
-      "totalViews": 14,
-      "totalLikes": 1,
-      "totalComments": 2
+      "videoCount": 8,
+      "totalViews": 225913,
+      "totalLikes": 16314,
+      "totalComments": 4683
     },
-    "calculatedScore": 33,
-    "timestamp": "2026-01-15T15:07:19.753Z"
+    "note": {
+      "articleCount": 0,
+      "totalLikes": 0,
+      "articles": []
+    },
+    "calculatedScore": 60,
+    "timestamp": "2026-01-15T15:28:24.793Z"
   },
   {
     "itemId": "chair-ergohuman-pro",
     "itemName": "エルゴヒューマン プロ オットマン",
     "twitter": {
-      "tweetCount": 31,
-      "totalLikes": 3167,
-      "totalRetweets": 454,
-      "totalReplies": 436
+      "tweetCount": 270,
+      "totalLikes": 1717,
+      "totalRetweets": 795,
+      "totalReplies": 209
     },
     "youtube": {
-      "videoCount": 0,
-      "totalViews": 0,
-      "totalLikes": 0,
-      "totalComments": 0
+      "videoCount": 6,
+      "totalViews": 65005,
+      "totalLikes": 14308,
+      "totalComments": 3081
     },
-    "calculatedScore": 22,
-    "timestamp": "2026-01-15T15:07:20.989Z"
+    "note": {
+      "articleCount": 1,
+      "totalLikes": 1,
+      "articles": [
+        {
+          "title": "【腰痛バイバイ】デスクワークの寿命を延ばす「神・オフィスチェア＆クッション」3選",
+          "url": "https://note.com/taka_gadget_rev/n/n8a3ca3989b8d",
+          "author": "",
+          "likes": 1,
+          "date": "2日前"
+        }
+      ]
+    },
+    "calculatedScore": 70,
+    "timestamp": "2026-01-15T15:28:25.794Z"
   },
   {
     "itemId": "monitor-arm-ergotron-lx",
     "itemName": "エルゴトロン LX デスクマウントアーム",
     "twitter": {
-      "tweetCount": 43,
-      "totalLikes": 4266,
-      "totalRetweets": 928,
-      "totalReplies": 256
+      "tweetCount": 42,
+      "totalLikes": 350,
+      "totalRetweets": 700,
+      "totalReplies": 262
     },
     "youtube": {
-      "videoCount": 0,
-      "totalViews": 0,
-      "totalLikes": 0,
-      "totalComments": 0
+      "videoCount": 28,
+      "totalViews": 276701,
+      "totalLikes": 17153,
+      "totalComments": 3498
     },
-    "calculatedScore": 23,
-    "timestamp": "2026-01-15T15:07:22.212Z"
+    "note": {
+      "articleCount": 2,
+      "totalLikes": 35,
+      "articles": [
+        {
+          "title": "モニターアームおすすめ5選｜シングルモニター向け人気モデル比較",
+          "url": "https://note.com/fumi_gadget/n/nbdb84f49cfa0",
+          "author": "",
+          "likes": 24,
+          "date": "3日前"
+        },
+        {
+          "title": "【デスクツアー2026冬】配線はカオス、音と映像はガチ。モニターアームの裏に「スピーカー」を隠した、僕の秘密基地",
+          "url": "https://note.com/kazu_3734/n/n7b322530c2c8",
+          "author": "",
+          "likes": 11,
+          "date": "7日前"
+        }
+      ]
+    },
+    "calculatedScore": 55,
+    "timestamp": "2026-01-15T15:28:26.795Z"
   },
   {
     "itemId": "desk-light-benq-screenbar",
     "itemName": "BenQ ScreenBar モニターライト",
     "twitter": {
-      "tweetCount": 307,
-      "totalLikes": 344,
-      "totalRetweets": 560,
-      "totalReplies": 62
+      "tweetCount": 360,
+      "totalLikes": 1425,
+      "totalRetweets": 747,
+      "totalReplies": 162
     },
     "youtube": {
-      "videoCount": 4,
-      "totalViews": 2778,
-      "totalLikes": 25,
-      "totalComments": 0
+      "videoCount": 42,
+      "totalViews": 455852,
+      "totalLikes": 11806,
+      "totalComments": 4710
     },
-    "calculatedScore": 39,
-    "timestamp": "2026-01-15T15:07:23.532Z"
+    "note": {
+      "articleCount": 3,
+      "totalLikes": 41,
+      "articles": [
+        {
+          "title": "【デスクツアー】BenQからHueまで！夜の作業が捗りすぎるAmazonおすすめガジェット5選",
+          "url": "https://note.com/rapid_gerbil1132/n/n526b758fdc76",
+          "author": "",
+          "likes": 29,
+          "date": "3日前"
+        },
+        {
+          "title": "【デスクが映える】モニターライトバー導入で「大人の秘密基地」が完成した話",
+          "url": "https://note.com/taka_gadget_rev/n/naaab857a5187",
+          "author": "",
+          "likes": 5,
+          "date": "3日前"
+        },
+        {
+          "title": "【目の寿命が延びる】デスクがお洒落な書斎に。モニターに乗せるだけの魔法の棒「スクリーンバー」導入のすすめ。",
+          "url": "https://note.com/mighty_blow/n/neac685a437ed",
+          "author": "",
+          "likes": 7,
+          "date": "7日前"
+        }
+      ]
+    },
+    "calculatedScore": 77,
+    "timestamp": "2026-01-15T15:28:27.796Z"
   },
   {
     "itemId": "desk-mat-grovemade",
     "itemName": "Grovemade デスクマット",
     "twitter": {
-      "tweetCount": 34,
-      "totalLikes": 1245,
-      "totalRetweets": 183,
-      "totalReplies": 95
+      "tweetCount": 104,
+      "totalLikes": 2643,
+      "totalRetweets": 817,
+      "totalReplies": 39
     },
     "youtube": {
-      "videoCount": 0,
-      "totalViews": 0,
-      "totalLikes": 0,
-      "totalComments": 0
+      "videoCount": 11,
+      "totalViews": 353534,
+      "totalLikes": 1753,
+      "totalComments": 1194
     },
-    "calculatedScore": 15,
-    "timestamp": "2026-01-15T15:07:24.754Z"
+    "note": {
+      "articleCount": 0,
+      "totalLikes": 0,
+      "articles": []
+    },
+    "calculatedScore": 60,
+    "timestamp": "2026-01-15T15:28:28.798Z"
   },
   {
     "itemId": "ambient-light-philips-hue",
     "itemName": "Philips Hue Play ライトバー",
     "twitter": {
-      "tweetCount": 144,
-      "totalLikes": 418,
-      "totalRetweets": 283,
-      "totalReplies": 31
+      "tweetCount": 223,
+      "totalLikes": 3974,
+      "totalRetweets": 486,
+      "totalReplies": 197
     },
     "youtube": {
-      "videoCount": 0,
-      "totalViews": 0,
-      "totalLikes": 0,
-      "totalComments": 0
+      "videoCount": 34,
+      "totalViews": 375487,
+      "totalLikes": 2276,
+      "totalComments": 1340
     },
-    "calculatedScore": 17,
-    "timestamp": "2026-01-15T15:07:25.986Z"
+    "note": {
+      "articleCount": 1,
+      "totalLikes": 5,
+      "articles": [
+        {
+          "title": "【デスクが映える】モニターライトバー導入で「大人の秘密基地」が完成した話",
+          "url": "https://note.com/taka_gadget_rev/n/naaab857a5187",
+          "author": "",
+          "likes": 5,
+          "date": "3日前"
+        }
+      ]
+    },
+    "calculatedScore": 67,
+    "timestamp": "2026-01-15T15:28:29.800Z"
   }
 ]
