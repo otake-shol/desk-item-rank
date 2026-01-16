@@ -104,6 +104,18 @@ export function Footer() {
           <p className="text-xs text-[#8888a0]">
             &copy; {currentYear} デスク・グッズ・ランク All rights reserved.
           </p>
+          {/* インスピレーション元への謝辞 */}
+          <p className="mt-3 sm:mt-4 text-xs text-[#8888a0]">
+            Inspired by{' '}
+            <a
+              href="https://techbookrank.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block rounded px-1.5 py-1 text-[#00d4ff] hover:underline active:bg-white/10 sm:px-0 sm:py-0"
+            >
+              テック・ブック・ランク
+            </a>
+          </p>
         </div>
       </div>
     </footer>
