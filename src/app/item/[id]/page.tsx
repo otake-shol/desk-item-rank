@@ -160,6 +160,62 @@ export default async function ItemPage({ params }: ItemPageProps) {
             </div>
           </div>
 
+          {/* 紹介動画（YouTube） */}
+          {item.mediaReferences && item.mediaReferences.length > 0 && (
+            <section className="mt-12">
+              <h2 className="mb-6 flex items-center gap-2 text-xl font-bold text-white">
+                <svg className="h-6 w-6 text-[#FF0000]" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                </svg>
+                紹介動画
+              </h2>
+              <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+                {item.mediaReferences.map((media) => (
+                  <a
+                    key={media.videoId}
+                    href={`https://www.youtube.com/watch?v=${media.videoId}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="group overflow-hidden rounded-xl border border-white/10 bg-[#1a1a24] transition-all hover:border-[#00d4ff]/50 hover:shadow-lg"
+                  >
+                    {/* サムネイル */}
+                    <div className="relative aspect-video bg-[#12121a]">
+                      <Image
+                        src={media.thumbnailUrl}
+                        alt={media.title}
+                        fill
+                        className="object-cover transition-transform group-hover:scale-105"
+                        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                      />
+                      {/* 再生ボタンオーバーレイ */}
+                      <div className="absolute inset-0 flex items-center justify-center bg-black/30 opacity-0 transition-opacity group-hover:opacity-100">
+                        <div className="flex h-12 w-12 items-center justify-center rounded-full bg-[#FF0000]">
+                          <svg className="h-6 w-6 text-white" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M8 5v14l11-7z"/>
+                          </svg>
+                        </div>
+                      </div>
+                    </div>
+                    {/* 情報 */}
+                    <div className="p-4">
+                      <h3 className="mb-2 line-clamp-2 text-sm font-medium text-white group-hover:text-[#00d4ff]">
+                        {media.title}
+                      </h3>
+                      <p className="text-xs text-[#8888a0]">
+                        {media.channelName}
+                      </p>
+                      {media.viewCount && (
+                        <p className="mt-1 text-xs text-[#8888a0]">
+                          {media.viewCount.toLocaleString()} 回視聴
+                        </p>
+                      )}
+                    </div>
+                  </a>
+                ))}
+              </div>
+            </section>
+          )}
+
           {/* 関連アイテム */}
           {relatedItems.length > 0 && (
             <section className="mt-12">

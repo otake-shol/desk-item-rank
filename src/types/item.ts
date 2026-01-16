@@ -19,6 +19,19 @@ export interface SocialScore {
   amazon: number
 }
 
+/**
+ * メディア参照（YouTube動画など）
+ */
+export interface MediaReference {
+  type: 'youtube'
+  videoId: string
+  title: string
+  channelName: string
+  thumbnailUrl: string
+  publishedAt: string
+  viewCount?: number
+}
+
 export interface Item {
   id: string
   name: string
@@ -39,4 +52,5 @@ export interface Item {
   featured: boolean
   createdAt: string
   updatedAt: string
+  mediaReferences?: MediaReference[]
 }

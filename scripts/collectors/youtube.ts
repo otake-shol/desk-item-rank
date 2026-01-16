@@ -1,5 +1,5 @@
 /**
- * YouTube Data API連携（将来実装用）
+ * YouTube Data API連携
  * 仕様書: specs/05-data-collection.md
  */
 
@@ -8,6 +8,18 @@ export interface YouTubeSearchResult {
   totalViews: number
   totalLikes: number
   totalComments: number
+}
+
+/**
+ * 動画詳細情報（MediaReference用）
+ */
+export interface YouTubeVideoDetail {
+  videoId: string
+  title: string
+  channelName: string
+  thumbnailUrl: string
+  publishedAt: string
+  viewCount: number
 }
 
 /**
@@ -100,4 +112,78 @@ function getDateMonthsAgo(months: number): Date {
   const date = new Date()
   date.setMonth(date.getMonth() - months)
   return date
+}
+
+/**
+ * 商品名でYouTube動画を検索し、詳細情報を取得
+ * @param productName 商品名
+ * @param maxResults 最大取得件数
+ */
+export async function searchYouTubeVideos(
+  productName: string,
+  maxResults: number = 5
+): Promise<YouTubeVideoDetail[]> {
+  const apiKey = process.env.YOUTUBE_API_KEY
+
+  if (!apiKey) {
+    console.warn('YOUTUBE_API_KEY is not set. Skipping YouTube video search.')
+    return []
+  }
+
+  try {
+    // 検索APIでビデオIDを取得
+    const searchUrl = new URL('https://www.googleapis.com/youtube/v3/search')
+    searchUrl.searchParams.set('part', 'id')
+    searchUrl.searchParams.set('q', `${productName} レビュー`)
+    searchUrl.searchParams.set('type', 'video')
+    searchUrl.searchParams.set('maxResults', String(maxResults))
+    searchUrl.searchParams.set('order', 'viewCount')
+    searchUrl.searchParams.set('relevanceLanguage', 'ja')
+    searchUrl.searchParams.set('key', apiKey)
+
+    const searchResponse = await fetch(searchUrl.toString())
+    if (!searchResponse.ok) {
+      throw new Error(`YouTube API error: ${searchResponse.statusText}`)
+    }
+
+    const searchData = await searchResponse.json()
+    const videoIds = searchData.items?.map((item: { id: { videoId: string } }) => item.id.videoId) || []
+
+    if (videoIds.length === 0) {
+      return []
+    }
+
+    // 動画詳細を取得（snippet + statistics）
+    const detailsUrl = new URL('https://www.googleapis.com/youtube/v3/videos')
+    detailsUrl.searchParams.set('part', 'snippet,statistics')
+    detailsUrl.searchParams.set('id', videoIds.join(','))
+    detailsUrl.searchParams.set('key', apiKey)
+
+    const detailsResponse = await fetch(detailsUrl.toString())
+    if (!detailsResponse.ok) {
+      throw new Error(`YouTube API error: ${detailsResponse.statusText}`)
+    }
+
+    const detailsData = await detailsResponse.json()
+
+    const videos: YouTubeVideoDetail[] = []
+    for (const video of detailsData.items || []) {
+      const snippet = video.snippet
+      const statistics = video.statistics
+
+      videos.push({
+        videoId: video.id,
+        title: snippet.title,
+        channelName: snippet.channelTitle,
+        thumbnailUrl: snippet.thumbnails?.medium?.url || snippet.thumbnails?.default?.url || '',
+        publishedAt: snippet.publishedAt,
+        viewCount: parseInt(statistics?.viewCount || '0', 10),
+      })
+    }
+
+    return videos
+  } catch (error) {
+    console.error('YouTube API error:', error)
+    return []
+  }
 }
