@@ -276,6 +276,7 @@ export async function searchMakuakeByKeyword(keyword: string, maxItems: number =
  */
 export async function discoverItemsFromMakuake(): Promise<DiscoveredItem[]> {
   const searchKeywords = [
+    // メインキーワード
     'デスク',
     'キーボード',
     'モニター',
@@ -283,6 +284,26 @@ export async function discoverItemsFromMakuake(): Promise<DiscoveredItem[]> {
     'ガジェット PC',
     'ワークスペース',
     'スタンディングデスク',
+    // 追加キーワード - 製品カテゴリ
+    'マウス ワイヤレス',
+    'トラックボール',
+    'モニターアーム',
+    'デスクライト',
+    'ウェブカメラ',
+    'マイク USB',
+    'スピーカー デスク',
+    'ヘッドホン',
+    'ドッキングステーション',
+    'USB ハブ',
+    'ケーブル 収納',
+    'デスクマット',
+    // 追加キーワード - ライフスタイル
+    'リモートワーク',
+    'テレワーク',
+    '在宅ワーク',
+    'ホームオフィス',
+    '電動昇降',
+    'エルゴノミクス',
   ]
 
   const allProjects: MakuakeProject[] = []

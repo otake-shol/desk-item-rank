@@ -201,12 +201,34 @@ export async function extractAsinsFromYouTubeDescription(
  */
 export async function discoverItemsFromYouTube(apiKey: string): Promise<DiscoveredItem[]> {
   const searchQueries = [
+    // メインキーワード
     'デスクツアー 2024',
     'デスクツアー 2025',
     'デスク環境 紹介',
     'デスクセットアップ',
     'desk tour japan',
     'ガジェット デスク',
+    // 追加キーワード - 仕事・職種系
+    'エンジニア デスクツアー',
+    'プログラマー 作業環境',
+    'デザイナー デスク',
+    'フリーランス デスクツアー',
+    'リモートワーク デスク紹介',
+    'テレワーク 環境構築',
+    // 追加キーワード - 製品カテゴリ系
+    '買ってよかった ガジェット',
+    'ベストバイ ガジェット 2024',
+    'おすすめ ガジェット 紹介',
+    'PC周辺機器 おすすめ',
+    'キーボード レビュー',
+    'モニター おすすめ',
+    '電動昇降デスク レビュー',
+    'ゲーミングデスク 紹介',
+    // 追加キーワード - チャンネル系
+    'デスクツアー vlog',
+    'ルームツアー デスク',
+    'work from home setup',
+    '在宅ワーク 環境',
   ]
 
   const discoveredItems: Map<string, DiscoveredItem> = new Map()
