@@ -194,9 +194,9 @@ export default async function ItemPage({ params }: ItemPageProps) {
                     <div className="relative flex items-center justify-center gap-2">
                       {/* 楽天Rロゴ */}
                       <svg className="h-5 w-5 text-white" viewBox="0 0 24 24" fill="currentColor">
-                        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm3.5 14.5h-2v-4h-3v4h-2V7.5h2v3h3v-3h2v9z"/>
+                        <path d="M4 4h8c2.2 0 4 1.8 4 4 0 1.8-1.2 3.4-3 3.9L18 20h-4l-4.5-7H8v7H4V4zm4 6h4c1.1 0 2-.9 2-2s-.9-2-2-2H8v4z"/>
                       </svg>
-                      <span className="text-sm font-bold text-white">楽天市場で見る</span>
+                      <span className="text-sm font-bold text-white">楽天市場で探す</span>
                       <svg className="h-4 w-4 text-white/80 transition-transform group-hover:translate-x-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
                         <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
                       </svg>
