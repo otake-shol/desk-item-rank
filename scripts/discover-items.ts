@@ -365,7 +365,13 @@ async function main() {
         const categoryOverride = amazonCategoryInfo.get(discovered.asin)
         const newItem = convertToItemFormat(productInfo, discovered, categoryOverride)
         newItems.push(newItem)
-        console.log(`    ✅ ${productInfo.title.substring(0, 40)}...`)
+
+        // 画像状態をログ出力
+        if (productInfo.imageUrl) {
+          console.log(`    ✅ ${productInfo.title.substring(0, 40)}...`)
+        } else {
+          console.log(`    ⚠️ ${productInfo.title.substring(0, 40)}... (画像なし)`)
+        }
       } else {
         console.log(`    ❌ 商品情報取得失敗`)
       }
@@ -375,6 +381,25 @@ async function main() {
     }
 
     if (newItems.length > 0) {
+      // 画像状態のサマリー
+      const itemsWithImage = newItems.filter((item: Record<string, unknown>) => item.imageUrl)
+      const itemsWithoutImage = newItems.filter((item: Record<string, unknown>) => !item.imageUrl)
+
+      console.log(`\n📊 画像取得サマリー:`)
+      console.log(`   ✅ 画像あり: ${itemsWithImage.length}件`)
+      console.log(`   ⚠️ 画像なし: ${itemsWithoutImage.length}件`)
+
+      if (itemsWithoutImage.length > 0) {
+        console.log(`\n⚠️ 画像なしアイテム (要確認):`)
+        for (const item of itemsWithoutImage.slice(0, 5) as Record<string, unknown>[]) {
+          const amazon = item.amazon as Record<string, unknown>
+          console.log(`   - ${(item.name as string).substring(0, 40)}... (${amazon?.asin})`)
+        }
+        if (itemsWithoutImage.length > 5) {
+          console.log(`   ... 他 ${itemsWithoutImage.length - 5}件`)
+        }
+      }
+
       // 発見結果を保存
       const outputDir = path.join(__dirname, '../data/discovered')
       if (!fs.existsSync(outputDir)) {

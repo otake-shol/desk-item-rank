@@ -5,6 +5,69 @@
 
 import { chromium } from 'playwright'
 
+// Amazon「画像なし」プレースホルダーのパターン
+const PLACEHOLDER_PATTERNS = [
+  'no-img',
+  'no_image',
+  'placeholder',
+  'G/01/x-locale/common/transparent-pixel',
+  'images/I/01RmK',  // Amazonの汎用プレースホルダー
+  'sprite',
+  'blank',
+]
+
+/**
+ * 画像URLが有効かどうかを検証
+ */
+export async function validateImageUrl(imageUrl: string | null): Promise<{
+  isValid: boolean
+  reason?: string
+}> {
+  if (!imageUrl) {
+    return { isValid: false, reason: 'URL is null' }
+  }
+
+  // プレースホルダーパターンをチェック
+  for (const pattern of PLACEHOLDER_PATTERNS) {
+    if (imageUrl.toLowerCase().includes(pattern.toLowerCase())) {
+      return { isValid: false, reason: `Placeholder detected: ${pattern}` }
+    }
+  }
+
+  // 画像サイズが小さすぎないかチェック（URLに含まれるサイズ情報）
+  // Amazonの画像URLは _SX300_ のようにサイズが含まれる
+  const sizeMatch = imageUrl.match(/_S[XYL](\d+)_/)
+  if (sizeMatch) {
+    const size = parseInt(sizeMatch[1])
+    if (size < 100) {
+      return { isValid: false, reason: `Image too small: ${size}px` }
+    }
+  }
+
+  // 実際にHTTPリクエストで確認
+  try {
+    const response = await fetch(imageUrl, { method: 'HEAD', signal: AbortSignal.timeout(5000) })
+
+    if (!response.ok) {
+      return { isValid: false, reason: `HTTP ${response.status}` }
+    }
+
+    const contentType = response.headers.get('content-type')
+    if (!contentType?.startsWith('image/')) {
+      return { isValid: false, reason: `Not an image: ${contentType}` }
+    }
+
+    const contentLength = response.headers.get('content-length')
+    if (contentLength && parseInt(contentLength) < 1000) {
+      return { isValid: false, reason: `File too small: ${contentLength} bytes` }
+    }
+
+    return { isValid: true }
+  } catch (error) {
+    return { isValid: false, reason: `Fetch failed: ${error}` }
+  }
+}
+
 export interface DiscoveredItem {
   asin: string
   sourceType: 'note' | 'youtube' | 'zenn' | 'hatena' | 'amazon-bestseller' | 'kakaku' | 'makuake'
@@ -192,11 +255,27 @@ export async function discoverItemsFromYouTube(apiKey: string): Promise<Discover
 }
 
 /**
+ * 画像URLを高解像度版に変換
+ */
+function getHighResImageUrl(imageUrl: string): string {
+  // Amazonの画像URLサイズを大きくする
+  // _SX300_ -> _SL500_ など
+  return imageUrl
+    .replace(/_S[XYL]\d+_/, '_SL500_')
+    .replace(/_SS\d+_/, '_SL500_')
+    .replace(/_AC_S[XYL]\d+_/, '_AC_SL500_')
+}
+
+/**
  * Amazonページから商品情報をスクレイピング
  */
 export async function fetchAmazonProductInfo(asin: string): Promise<AmazonProductInfo | null> {
   const browser = await chromium.launch({ headless: true })
-  const page = await browser.newPage()
+  const context = await browser.newContext({
+    userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+    locale: 'ja-JP',
+  })
+  const page = await context.newPage()
 
   // ユーザーエージェントを設定
   await page.setExtraHTTPHeaders({
@@ -221,24 +300,74 @@ export async function fetchAmazonProductInfo(asin: string): Promise<AmazonProduc
         price = priceText ? parseInt(priceText) : null
       }
 
-      // 画像URL
-      const imageEl = document.querySelector('#landingImage, #imgBlkFront') as HTMLImageElement
-      const imageUrl = imageEl?.src || null
+      // 画像URL（複数の候補を取得）
+      const imageUrls: string[] = []
+
+      // メイン画像
+      const mainImage = document.querySelector('#landingImage, #imgBlkFront') as HTMLImageElement
+      if (mainImage?.src) imageUrls.push(mainImage.src)
+
+      // data-old-hires属性（高解像度画像）
+      if (mainImage?.getAttribute('data-old-hires')) {
+        imageUrls.unshift(mainImage.getAttribute('data-old-hires')!)
+      }
+
+      // サムネイルから大きい画像を探す
+      const thumbs = document.querySelectorAll('#altImages img, .imageThumbnail img')
+      thumbs.forEach(img => {
+        const src = (img as HTMLImageElement).src
+        if (src && !src.includes('sprite') && !src.includes('transparent')) {
+          // サムネイルURLを大きい画像URLに変換
+          const largeUrl = src.replace(/_S[XYL]\d+_/, '_SL500_').replace(/_SS\d+_/, '_SL500_')
+          if (!imageUrls.includes(largeUrl)) {
+            imageUrls.push(largeUrl)
+          }
+        }
+      })
 
       // カテゴリ
       const breadcrumb = document.querySelector('#wayfinding-breadcrumbs_feature_div')
       const category = breadcrumb?.textContent?.trim().split('\n').filter(s => s.trim())[0] || null
 
-      return { title, price, imageUrl, category }
+      return { title, price, imageUrls, category }
     })
 
     if (!productInfo.title) {
+      console.log(`    ⚠️ ${asin}: タイトル取得失敗`)
       return null
+    }
+
+    // 画像を検証して有効なものを選択
+    let validImageUrl: string | null = null
+
+    for (const imgUrl of productInfo.imageUrls) {
+      const highResUrl = getHighResImageUrl(imgUrl)
+      const validation = await validateImageUrl(highResUrl)
+
+      if (validation.isValid) {
+        validImageUrl = highResUrl
+        break
+      } else {
+        console.log(`    ⚠️ 画像検証失敗: ${validation.reason}`)
+      }
+    }
+
+    if (!validImageUrl && productInfo.imageUrls.length > 0) {
+      // 検証に失敗しても最初の画像をフォールバックとして使用
+      validImageUrl = getHighResImageUrl(productInfo.imageUrls[0])
+      console.log(`    ⚠️ ${asin}: 画像検証スキップ、フォールバック使用`)
+    }
+
+    if (!validImageUrl) {
+      console.log(`    ❌ ${asin}: 有効な画像なし`)
     }
 
     return {
       asin,
-      ...productInfo,
+      title: productInfo.title,
+      price: productInfo.price,
+      imageUrl: validImageUrl,
+      category: productInfo.category,
     }
   } catch (error) {
     console.error(`Failed to fetch Amazon product: ${asin}`, error)
@@ -341,7 +470,8 @@ export function convertToItemFormat(
     name: productInfo.title,
     description: `${discovered.sourceTitle}で紹介された商品`,
     shortDescription: productInfo.title.substring(0, 30),
-    imageUrl: productInfo.imageUrl || 'https://via.placeholder.com/400x300',
+    imageUrl: productInfo.imageUrl,
+    needsImageReview: !productInfo.imageUrl, // 画像がない場合はレビューフラグを立てる
     category,
     subCategory,
     score: 0,
