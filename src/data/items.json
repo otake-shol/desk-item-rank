@@ -30,7 +30,36 @@
         "twitter": 8,
         "youtube": 0,
         "amazon": 50
-      }
+      },
+      "mediaReferences": [
+        {
+          "type": "youtube",
+          "videoId": "KfbiX7JFKsE",
+          "title": "Is This The BEST 4K USB-C Monitor? (Mac & PC Compatible) - Dell U2720Q Review",
+          "channelName": "Created Tech",
+          "thumbnailUrl": "https://i.ytimg.com/vi/KfbiX7JFKsE/mqdefault.jpg",
+          "publishedAt": "2021-01-12T14:05:38Z",
+          "viewCount": 729892
+        },
+        {
+          "type": "youtube",
+          "videoId": "gxBodic_8Z4",
+          "title": "This MacBook Monitor is PACKED With Features. But... (Dell U2724DE Review)",
+          "channelName": "Created Tech",
+          "thumbnailUrl": "https://i.ytimg.com/vi/gxBodic_8Z4/mqdefault.jpg",
+          "publishedAt": "2024-11-19T13:11:30Z",
+          "viewCount": 364721
+        },
+        {
+          "type": "youtube",
+          "videoId": "E1dEGOZUQJE",
+          "title": "こんなに安くていいのかな？　Dell の27インチ4Kモニター「S2722QC」レビュー。撮影時3万9735円だぞ！",
+          "channelName": "戸田覚：ガジェット【辛口】点数評価",
+          "thumbnailUrl": "https://i.ytimg.com/vi/E1dEGOZUQJE/mqdefault.jpg",
+          "publishedAt": "2021-10-09T09:00:06Z",
+          "viewCount": 270336
+        }
+      ]
     },
     {
       "id": "keyboard-hhkb-hybrid",
@@ -61,7 +90,36 @@
         "twitter": 49,
         "youtube": 3,
         "amazon": 50
-      }
+      },
+      "mediaReferences": [
+        {
+          "type": "youtube",
+          "videoId": "OgknMf9b1dc",
+          "title": "HHKBを使ったらやばかった… #ライフハック #デスク周り",
+          "channelName": "ツヨシ | techyou",
+          "thumbnailUrl": "https://i.ytimg.com/vi/OgknMf9b1dc/mqdefault.jpg",
+          "publishedAt": "2023-01-21T12:08:27Z",
+          "viewCount": 910418
+        },
+        {
+          "type": "youtube",
+          "videoId": "5mEg901JAHc",
+          "title": "全人類にHHKBをおすすめしたい理由 ＆ 購入前に知りたいデメリット / HHKB Professional HYBRID Type-S レビュー",
+          "channelName": "ひねるゲームス",
+          "thumbnailUrl": "https://i.ytimg.com/vi/5mEg901JAHc/mqdefault.jpg",
+          "publishedAt": "2020-01-10T13:14:39Z",
+          "viewCount": 624819
+        },
+        {
+          "type": "youtube",
+          "videoId": "aXJkKzn0RAw",
+          "title": "極上のキーボード！HHKB Professional HYBRID Type-S（日本語配列）を買ってみた",
+          "channelName": "すけこむの動画",
+          "thumbnailUrl": "https://i.ytimg.com/vi/aXJkKzn0RAw/mqdefault.jpg",
+          "publishedAt": "2024-04-23T09:30:01Z",
+          "viewCount": 335568
+        }
+      ]
     },
     {
       "id": "mouse-logicool-mx-master3s",
@@ -92,7 +150,36 @@
         "twitter": 66,
         "youtube": 5,
         "amazon": 50
-      }
+      },
+      "mediaReferences": [
+        {
+          "type": "youtube",
+          "videoId": "EJw1y2jNHNk",
+          "title": "MXMaster3SとMXErgoを徹底比較してみた！ #デスク周り #ライフハック #ガジェット",
+          "channelName": "ツヨシ | techyou",
+          "thumbnailUrl": "https://i.ytimg.com/vi/EJw1y2jNHNk/mqdefault.jpg",
+          "publishedAt": "2023-04-01T09:00:14Z",
+          "viewCount": 506791
+        },
+        {
+          "type": "youtube",
+          "videoId": "_dijde_WQgg",
+          "title": "This Mouse CHANGED How I Work - Logitech MX Master 3S Review",
+          "channelName": "Upgradeitis",
+          "thumbnailUrl": "https://i.ytimg.com/vi/_dijde_WQgg/mqdefault.jpg",
+          "publishedAt": "2022-12-17T23:28:54Z",
+          "viewCount": 414341
+        },
+        {
+          "type": "youtube",
+          "videoId": "wOtBTScwMhE",
+          "title": "Logitech MX Master 4 - Is it better?",
+          "channelName": "Cameron Dougherty Tech",
+          "thumbnailUrl": "https://i.ytimg.com/vi/wOtBTScwMhE/mqdefault.jpg",
+          "publishedAt": "2025-09-30T07:15:10Z",
+          "viewCount": 310540
+        }
+      ]
     },
     {
       "id": "headphone-sony-wh1000xm5",
@@ -123,7 +210,36 @@
         "twitter": 49,
         "youtube": 15,
         "amazon": 50
-      }
+      },
+      "mediaReferences": [
+        {
+          "type": "youtube",
+          "videoId": "6CsJZxfZsL0",
+          "title": "Sony WH-1000XM5 Review: Two Steps Forward, One Step Back!",
+          "channelName": "Marques Brownlee",
+          "thumbnailUrl": "https://i.ytimg.com/vi/6CsJZxfZsL0/mqdefault.jpg",
+          "publishedAt": "2022-05-12T16:01:05Z",
+          "viewCount": 6423594
+        },
+        {
+          "type": "youtube",
+          "videoId": "qnEKEI4ZoHo",
+          "title": "Sony WH-1000XM5 Review - Taylor Swift Sounds Good in These",
+          "channelName": "Ryan Kennedy",
+          "thumbnailUrl": "https://i.ytimg.com/vi/qnEKEI4ZoHo/mqdefault.jpg",
+          "publishedAt": "2022-06-16T22:52:50Z",
+          "viewCount": 4643835
+        },
+        {
+          "type": "youtube",
+          "videoId": "XbXXKhfvSF0",
+          "title": "Sony WH-1000XM6 Review: Back on the Throne!",
+          "channelName": "Marques Brownlee",
+          "thumbnailUrl": "https://i.ytimg.com/vi/XbXXKhfvSF0/mqdefault.jpg",
+          "publishedAt": "2025-05-15T16:20:59Z",
+          "viewCount": 4429129
+        }
+      ]
     },
     {
       "id": "desk-flexispot-e7",
@@ -153,7 +269,36 @@
         "twitter": 58,
         "youtube": 1,
         "amazon": 50
-      }
+      },
+      "mediaReferences": [
+        {
+          "type": "youtube",
+          "videoId": "aTjl3Z6f0RE",
+          "title": "【全部入り】電動昇降デスク最新モデルFlexiSpot E7Hに乗り換えました！ #ガジェット #デスク周り #ライフハック",
+          "channelName": "ツヨシ | techyou",
+          "thumbnailUrl": "https://i.ytimg.com/vi/aTjl3Z6f0RE/mqdefault.jpg",
+          "publishedAt": "2023-11-08T09:00:01Z",
+          "viewCount": 1734859
+        },
+        {
+          "type": "youtube",
+          "videoId": "zDeoQnawX7I",
+          "title": "【デスクツアー】30代クリエイターの超快適なデスク周り（猫飼い共存編｜2024年版）",
+          "channelName": "shota / 25歳の壁",
+          "thumbnailUrl": "https://i.ytimg.com/vi/zDeoQnawX7I/mqdefault.jpg",
+          "publishedAt": "2024-05-09T03:28:34Z",
+          "viewCount": 866714
+        },
+        {
+          "type": "youtube",
+          "videoId": "VTUqapPwQ7k",
+          "title": "【FlexiSpot】電動昇降デスクE7H紹介動画",
+          "channelName": "FlexiSpot JP チャンネル",
+          "thumbnailUrl": "https://i.ytimg.com/vi/VTUqapPwQ7k/mqdefault.jpg",
+          "publishedAt": "2024-08-21T03:04:03Z",
+          "viewCount": 767824
+        }
+      ]
     },
     {
       "id": "chair-ergohuman-pro",
@@ -183,7 +328,36 @@
         "twitter": 68,
         "youtube": 0,
         "amazon": 50
-      }
+      },
+      "mediaReferences": [
+        {
+          "type": "youtube",
+          "videoId": "HABZD5kt3AA",
+          "title": "COFO Chair Premiumを1年使った感想#ガジェット #デスク周り #ライフハック",
+          "channelName": "ツヨシ | techyou",
+          "thumbnailUrl": "https://i.ytimg.com/vi/HABZD5kt3AA/mqdefault.jpg",
+          "publishedAt": "2023-04-23T09:00:07Z",
+          "viewCount": 627393
+        },
+        {
+          "type": "youtube",
+          "videoId": "iXlqYDSKIBc",
+          "title": "【メーカー比較】最高級オフィスチェアおすすめ4選【アーロンチェア/スチールケース/エルゴヒューマン/オカムラコンテッサ】",
+          "channelName": "Mr.Chairs",
+          "thumbnailUrl": "https://i.ytimg.com/vi/iXlqYDSKIBc/mqdefault.jpg",
+          "publishedAt": "2023-05-13T09:00:22Z",
+          "viewCount": 143223
+        },
+        {
+          "type": "youtube",
+          "videoId": "YNnhmHcIdc0",
+          "title": "【長期レビュー】エルゴヒューマンプロを“5年”使ってわかった良い点悪い点",
+          "channelName": "MiD'S LIFE",
+          "thumbnailUrl": "https://i.ytimg.com/vi/YNnhmHcIdc0/mqdefault.jpg",
+          "publishedAt": "2020-11-21T09:30:02Z",
+          "viewCount": 127210
+        }
+      ]
     },
     {
       "id": "monitor-arm-ergotron-lx",
@@ -213,7 +387,36 @@
         "twitter": 49,
         "youtube": 0,
         "amazon": 50
-      }
+      },
+      "mediaReferences": [
+        {
+          "type": "youtube",
+          "videoId": "xrpoF-xsQDc",
+          "title": "自由自在！PCモニター用アームレビュー！",
+          "channelName": "カズチャンネル/Kazu Channel",
+          "thumbnailUrl": "https://i.ytimg.com/vi/xrpoF-xsQDc/mqdefault.jpg",
+          "publishedAt": "2016-02-26T10:00:04Z",
+          "viewCount": 420887
+        },
+        {
+          "type": "youtube",
+          "videoId": "Gu-CKfCOQwo",
+          "title": "【必須アイテム】デスク周りが綺麗になるおすすめモニターアームまとめ [エルゴトロン開封レビュー付き]",
+          "channelName": "たこまる/TAKOMARU",
+          "thumbnailUrl": "https://i.ytimg.com/vi/Gu-CKfCOQwo/mqdefault.jpg",
+          "publishedAt": "2020-10-07T11:30:02Z",
+          "viewCount": 244944
+        },
+        {
+          "type": "youtube",
+          "videoId": "vdXVdiPzRs4",
+          "title": "【レビュー】37.5型ウルトラワイドモニターをM1 MacBookで使い倒す（EIZO FlexScan EV3895 & エルゴトロンLX）",
+          "channelName": "理想の書斎づくり｜Fantastic workspace",
+          "thumbnailUrl": "https://i.ytimg.com/vi/vdXVdiPzRs4/mqdefault.jpg",
+          "publishedAt": "2021-09-19T11:15:05Z",
+          "viewCount": 209729
+        }
+      ]
     },
     {
       "id": "desk-light-benq-screenbar",
@@ -244,7 +447,36 @@
         "twitter": 28,
         "youtube": 4,
         "amazon": 50
-      }
+      },
+      "mediaReferences": [
+        {
+          "type": "youtube",
+          "videoId": "VDAxavP2zRs",
+          "title": "コスパ最強Quntisのモニターライトを使ってみてわかった衝撃の事実３選 #ガジェット #デスク周り #ライフハック",
+          "channelName": "ツヨシ | techyou",
+          "thumbnailUrl": "https://i.ytimg.com/vi/VDAxavP2zRs/mqdefault.jpg",
+          "publishedAt": "2023-07-20T09:00:15Z",
+          "viewCount": 176470
+        },
+        {
+          "type": "youtube",
+          "videoId": "AEYPF08ez3E",
+          "title": "「モニターライトいらんw」そう思っていた時期が僕にもありました | BenQ ScreenBar レビュー【おすすめ】",
+          "channelName": "Kohei Kimura | キムラコウヘイ",
+          "thumbnailUrl": "https://i.ytimg.com/vi/AEYPF08ez3E/mqdefault.jpg",
+          "publishedAt": "2022-09-16T12:15:00Z",
+          "viewCount": 95679
+        },
+        {
+          "type": "youtube",
+          "videoId": "CCHqWUMUDGQ",
+          "title": "【最新デスクライト】BenQ ScreenBar Haloの真実（深堀りレビュー）",
+          "channelName": "理想の書斎づくり｜Fantastic workspace",
+          "thumbnailUrl": "https://i.ytimg.com/vi/CCHqWUMUDGQ/mqdefault.jpg",
+          "publishedAt": "2021-12-23T10:00:06Z",
+          "viewCount": 91174
+        }
+      ]
     },
     {
       "id": "desk-mat-grovemade",
@@ -275,7 +507,36 @@
         "twitter": 18,
         "youtube": 0,
         "amazon": 50
-      }
+      },
+      "mediaReferences": [
+        {
+          "type": "youtube",
+          "videoId": "brJR97PFwzk",
+          "title": "【急げ!】Grovemadeライクなデスクシェルフが遂に登場!Amazonで約1.8万円で買える【amesoba】",
+          "channelName": "ウラヌす-studio-【ガジェットレビュー】",
+          "thumbnailUrl": "https://i.ytimg.com/vi/brJR97PFwzk/mqdefault.jpg",
+          "publishedAt": "2024-02-18T10:23:53Z",
+          "viewCount": 53384
+        },
+        {
+          "type": "youtube",
+          "videoId": "_Nm3XmGw0oo",
+          "title": "【Grovemadeの半額以下】amesoba木製デスクシェルフ(モニター台)がおすすめ｜モニターアームと併用｜モニタースタンドとしても",
+          "channelName": "前略、物欲が止まりません。",
+          "thumbnailUrl": "https://i.ytimg.com/vi/_Nm3XmGw0oo/mqdefault.jpg",
+          "publishedAt": "2024-03-29T03:37:33Z",
+          "viewCount": 44903
+        },
+        {
+          "type": "youtube",
+          "videoId": "XMxGSox8H3c",
+          "title": "These Desk Pads Will Blow Your Mind! | Grovemade Desk Pad Unboxing and Review",
+          "channelName": "Andrew Wright",
+          "thumbnailUrl": "https://i.ytimg.com/vi/XMxGSox8H3c/mqdefault.jpg",
+          "publishedAt": "2021-10-16T00:09:44Z",
+          "viewCount": 39338
+        }
+      ]
     },
     {
       "id": "ambient-light-philips-hue",
@@ -306,7 +567,36 @@
         "twitter": 59,
         "youtube": 0,
         "amazon": 50
-      }
+      },
+      "mediaReferences": [
+        {
+          "type": "youtube",
+          "videoId": "TatN2ntcnIY",
+          "title": "Philips Hue Play Light Bar: Review",
+          "channelName": "DetroitBORG",
+          "thumbnailUrl": "https://i.ytimg.com/vi/TatN2ntcnIY/mqdefault.jpg",
+          "publishedAt": "2018-11-03T02:56:27Z",
+          "viewCount": 1364689
+        },
+        {
+          "type": "youtube",
+          "videoId": "Fr6DaWflbuQ",
+          "title": "BEST TV BACKLIGHT LED STRIP KIT Govee Immersion | Philips Hue Play HDMI Sync Box Alternative",
+          "channelName": "Geek Street",
+          "thumbnailUrl": "https://i.ytimg.com/vi/Fr6DaWflbuQ/mqdefault.jpg",
+          "publishedAt": "2020-12-29T07:00:07Z",
+          "viewCount": 846893
+        },
+        {
+          "type": "youtube",
+          "videoId": "mw1FK74-Hu8",
+          "title": "Philips Hue Play HDMI Sync Box - SETUP & REVIEW! | The Tech Chap",
+          "channelName": "The Tech Chap",
+          "thumbnailUrl": "https://i.ytimg.com/vi/mw1FK74-Hu8/mqdefault.jpg",
+          "publishedAt": "2020-01-15T16:07:06Z",
+          "viewCount": 731846
+        }
+      ]
     },
     {
       "id": "monitor-b0d1k8h4f5",
@@ -339,7 +629,36 @@
         "url": "https://note.com/kankare/n/nde85c912a723",
         "title": "【価格崩壊】8000円のモバイルモニターが1位！？AmazonモニターランキングTOP10。240HzのREGZAも3万円台でヤバい【2026年1月】",
         "mentionCount": 2
-      }
+      },
+      "mediaReferences": [
+        {
+          "type": "youtube",
+          "videoId": "xm4R2KbdSDc",
+          "title": "【8940円】KEEPTIMEの15.6インチ人気モバイルモニターを自腹レビュー！Switchにもおすすめ【KEEPTIME P156/A1】",
+          "channelName": "モバっと!ちゃんねる",
+          "thumbnailUrl": "https://i.ytimg.com/vi/xm4R2KbdSDc/mqdefault.jpg",
+          "publishedAt": "2025-05-03T10:08:23Z",
+          "viewCount": 95804
+        },
+        {
+          "type": "youtube",
+          "videoId": "P5c6TDwiIHE",
+          "title": "【🚐ツェルトCPで行こう】#09 液晶モニター編 📺",
+          "channelName": "VLOG KAZUTO",
+          "thumbnailUrl": "https://i.ytimg.com/vi/P5c6TDwiIHE/mqdefault.jpg",
+          "publishedAt": "2025-03-01T14:02:23Z",
+          "viewCount": 477
+        },
+        {
+          "type": "youtube",
+          "videoId": "MTtE_vSUNbQ",
+          "title": "売れてるのはコレ！DMMガンプラランキング60秒でチェック 2025年06月29日 #Shorts",
+          "channelName": "ひらめき☆なんでもランキング",
+          "thumbnailUrl": "https://i.ytimg.com/vi/MTtE_vSUNbQ/mqdefault.jpg",
+          "publishedAt": "2025-06-29T07:21:54Z",
+          "viewCount": 1100
+        }
+      ]
     },
     {
       "id": "desk-b0bzts9lr7",
@@ -405,7 +724,36 @@
         "url": "https://note.com/yamako_s__29/n/nfc3cdcfbf2f4",
         "title": "高校生の2026年1月デスクツアー",
         "mentionCount": 1
-      }
+      },
+      "mediaReferences": [
+        {
+          "type": "youtube",
+          "videoId": "A9GMp-SScmg",
+          "title": "✅買うモニターアーム決まりました！",
+          "channelName": "しきしまきりん",
+          "thumbnailUrl": "https://i.ytimg.com/vi/A9GMp-SScmg/mqdefault.jpg",
+          "publishedAt": "2021-11-28T22:23:32Z",
+          "viewCount": 58
+        },
+        {
+          "type": "youtube",
+          "videoId": "21GpqCPZHsE",
+          "title": "レビューErGear PC モニターアーム 13-32インチ対応 ディスプレイ シングルアーム ガススプリング式 クランプ式 グロメット式 耐荷重2-8kg",
+          "channelName": "徹底検証チャンネル",
+          "thumbnailUrl": "https://i.ytimg.com/vi/21GpqCPZHsE/mqdefault.jpg",
+          "publishedAt": "2025-01-04T21:15:23Z",
+          "viewCount": 53
+        },
+        {
+          "type": "youtube",
+          "videoId": "ZXXc6k-a2yc",
+          "title": "レビューErGear PC モニターアーム 13-32インチ対応 耐荷重2-8kg ホワイト/白 ディスプレイアーム pc vesa アーム ガススプリング式 シングル クランプ式 グロメット式",
+          "channelName": "徹底検証チャンネル",
+          "thumbnailUrl": "https://i.ytimg.com/vi/ZXXc6k-a2yc/mqdefault.jpg",
+          "publishedAt": "2025-03-29T13:48:12Z",
+          "viewCount": 48
+        }
+      ]
     },
     {
       "id": "arm-accessory-b09qbtg3cc",
@@ -471,7 +819,36 @@
         "url": "https://note.com/yamako_s__29/n/nfc3cdcfbf2f4",
         "title": "高校生の2026年1月デスクツアー",
         "mentionCount": 1
-      }
+      },
+      "mediaReferences": [
+        {
+          "type": "youtube",
+          "videoId": "UHt6mb3uE_s",
+          "title": "ゲーミングマウスの人気ランキングTOP10 - 2025年11月版",
+          "channelName": "ガジェットランキング速報",
+          "thumbnailUrl": "https://i.ytimg.com/vi/UHt6mb3uE_s/mqdefault.jpg",
+          "publishedAt": "2025-11-13T09:00:55Z",
+          "viewCount": 11
+        },
+        {
+          "type": "youtube",
+          "videoId": "OYgrRE0JuOQ",
+          "title": "レビューLogicool G(ロジクール G) Logicool G ゲーミングマウス G502 有線 USB 接続 マウス HERO 25Kセンサー G502RGBhr LIGHTSYNC RGB",
+          "channelName": "商品レビュー道場",
+          "thumbnailUrl": "https://i.ytimg.com/vi/OYgrRE0JuOQ/mqdefault.jpg",
+          "publishedAt": "2025-06-12T20:13:29Z",
+          "viewCount": 8
+        },
+        {
+          "type": "youtube",
+          "videoId": "8ZOjz5LbV3M",
+          "title": "レビューLogicool G(ロジクール G) Logicool G ゲーミングマウス G502 有線 USB 接続 マウス HERO 25Kセンサー G502RGBhr LIGHTSYNC RGB",
+          "channelName": "もののひみつ",
+          "thumbnailUrl": "https://i.ytimg.com/vi/8ZOjz5LbV3M/mqdefault.jpg",
+          "publishedAt": "2025-07-20T23:54:26Z",
+          "viewCount": 2
+        }
+      ]
     },
     {
       "id": "microphone-b0d41f9h3z",
@@ -504,7 +881,18 @@
         "url": "https://note.com/yamako_s__29/n/nfc3cdcfbf2f4",
         "title": "高校生の2026年1月デスクツアー",
         "mentionCount": 1
-      }
+      },
+      "mediaReferences": [
+        {
+          "type": "youtube",
+          "videoId": "uEHCGIa_bQc",
+          "title": "レビューTKGOU USB ゲーミングマイク PC マイク コンデンサーマイクミュートボタン 単一指向性 RGBライティング 音量コントロール プラグ＆プレイ パソコンマイク ゲーム実況 ライブ配信",
+          "channelName": "これイイね TV",
+          "thumbnailUrl": "https://i.ytimg.com/vi/uEHCGIa_bQc/mqdefault.jpg",
+          "publishedAt": "2025-08-08T14:18:24Z",
+          "viewCount": 19
+        }
+      ]
     },
     {
       "id": "dac-amp-b0crybv9cw",
@@ -702,7 +1090,36 @@
         "url": "https://note.com/yamako_s__29/n/nfc3cdcfbf2f4",
         "title": "高校生の2026年1月デスクツアー",
         "mentionCount": 1
-      }
+      },
+      "mediaReferences": [
+        {
+          "type": "youtube",
+          "videoId": "LtKMXKPGaAc",
+          "title": "【これは買い】新型Echo Show 5 第3世代 が最高！！「できること」とやるべき設定を徹底解説！！",
+          "channelName": "きすけ / ガジェットの本音",
+          "thumbnailUrl": "https://i.ytimg.com/vi/LtKMXKPGaAc/mqdefault.jpg",
+          "publishedAt": "2023-08-09T11:00:04Z",
+          "viewCount": 221240
+        },
+        {
+          "type": "youtube",
+          "videoId": "n6vUWdvYuTc",
+          "title": "新型Echo Show 5 第3世代 (2023)をレビュー！│第2世代よりもアレがめっちゃ進化してる…！",
+          "channelName": "まみよし",
+          "thumbnailUrl": "https://i.ytimg.com/vi/n6vUWdvYuTc/mqdefault.jpg",
+          "publishedAt": "2023-08-08T13:45:15Z",
+          "viewCount": 97893
+        },
+        {
+          "type": "youtube",
+          "videoId": "uxbkt69xvns",
+          "title": "【8月8日発売】Amazonセール狙い目！Echo Show 5が第三世代になって超進化！気になる所も…【購入レビュー, エコーショー5】",
+          "channelName": "セゴリータ三世 / Segorita the 3rd",
+          "thumbnailUrl": "https://i.ytimg.com/vi/uxbkt69xvns/mqdefault.jpg",
+          "publishedAt": "2023-08-11T08:13:17Z",
+          "viewCount": 48023
+        }
+      ]
     },
     {
       "id": "charger-b0bjcxd6wf",
@@ -768,7 +1185,36 @@
         "url": "https://note.com/kankare/n/nd01722f085a6",
         "title": "トラックボールは「静音」が制す。王者Logicool M575SP vs MX ERGO S！エレコム・ProtoArcを抑えた最強の1台は？",
         "mentionCount": 1
-      }
+      },
+      "mediaReferences": [
+        {
+          "type": "youtube",
+          "videoId": "COyleZ3CW-g",
+          "title": "超大型トラックボール環境さえ整えばかなり優秀。その注意点とは。M-HT1DRXBK HUGE　＃2",
+          "channelName": "ガジェット好きぬしさんjustdit.d",
+          "thumbnailUrl": "https://i.ytimg.com/vi/COyleZ3CW-g/mqdefault.jpg",
+          "publishedAt": "2021-04-24T09:00:07Z",
+          "viewCount": 30872
+        },
+        {
+          "type": "youtube",
+          "videoId": "_F8BVNkJX4s",
+          "title": "エレコムトラックボールマウスM-HT1URBK2年間使ったレビュー【デスクワーク】",
+          "channelName": "COM / ガジェット研究所",
+          "thumbnailUrl": "https://i.ytimg.com/vi/_F8BVNkJX4s/mqdefault.jpg",
+          "publishedAt": "2021-07-23T11:00:29Z",
+          "viewCount": 27337
+        },
+        {
+          "type": "youtube",
+          "videoId": "87zbd8cyzzg",
+          "title": "【多機能で便利なマウス!!】エレコムの「M-HT1DRXBK」を開封レビューします!!",
+          "channelName": "joysong",
+          "thumbnailUrl": "https://i.ytimg.com/vi/87zbd8cyzzg/mqdefault.jpg",
+          "publishedAt": "2020-11-30T03:05:46Z",
+          "viewCount": 19333
+        }
+      ]
     },
     {
       "id": "trackball-b016qcprbm",
@@ -801,7 +1247,27 @@
         "url": "https://note.com/kankare/n/nd01722f085a6",
         "title": "トラックボールは「静音」が制す。王者Logicool M575SP vs MX ERGO S！エレコム・ProtoArcを抑えた最強の1台は？",
         "mentionCount": 1
-      }
+      },
+      "mediaReferences": [
+        {
+          "type": "youtube",
+          "videoId": "BQIuNlnNv3Y",
+          "title": "エレコムのトラックボールマウス（エレコム EX-6）を開封レビュー！#トラックボール",
+          "channelName": "たけちゃんマンの気まぐれショート",
+          "thumbnailUrl": "https://i.ytimg.com/vi/BQIuNlnNv3Y/mqdefault.jpg",
+          "publishedAt": "2023-07-22T06:21:38Z",
+          "viewCount": 6390
+        },
+        {
+          "type": "youtube",
+          "videoId": "75fTfFXSkpg",
+          "title": "レビュー エレコム(ELECOM) エレコム ワイヤレス トラックボールマウス EX-G 左手用 6ボタン チルトホイール（左右スクロール） ブラック M-XT4DRBK",
+          "channelName": "スマート生活",
+          "thumbnailUrl": "https://i.ytimg.com/vi/75fTfFXSkpg/mqdefault.jpg",
+          "publishedAt": "2025-11-07T23:43:57Z",
+          "viewCount": 22
+        }
+      ]
     },
     {
       "id": "trackball-b0crqwqrmt",
@@ -834,7 +1300,36 @@
         "url": "https://note.com/kankare/n/nd01722f085a6",
         "title": "トラックボールは「静音」が制す。王者Logicool M575SP vs MX ERGO S！エレコム・ProtoArcを抑えた最強の1台は？",
         "mentionCount": 1
-      }
+      },
+      "mediaReferences": [
+        {
+          "type": "youtube",
+          "videoId": "fDjBxcfQCg8",
+          "title": "USBメモリにパスワード",
+          "channelName": "みてみて",
+          "thumbnailUrl": "https://i.ytimg.com/vi/fDjBxcfQCg8/mqdefault.jpg",
+          "publishedAt": "2023-08-24T07:04:42Z",
+          "viewCount": 1097
+        },
+        {
+          "type": "youtube",
+          "videoId": "1KcwSNd6ms8",
+          "title": "「光10ギガ」を”最大限に活かす”ため「伝説のアイテム」たち",
+          "channelName": "みてみて",
+          "thumbnailUrl": "https://i.ytimg.com/vi/1KcwSNd6ms8/mqdefault.jpg",
+          "publishedAt": "2025-06-23T23:55:58Z",
+          "viewCount": 279
+        },
+        {
+          "type": "youtube",
+          "videoId": "paToowKyGY0",
+          "title": "コールマン シングルバーナー 508a 燃料漏れ",
+          "channelName": "みてみて",
+          "thumbnailUrl": "https://i.ytimg.com/vi/paToowKyGY0/mqdefault.jpg",
+          "publishedAt": "2025-01-04T03:47:55Z",
+          "viewCount": 199
+        }
+      ]
     },
     {
       "id": "mouse-accessory-b08dd6gqrv",
@@ -867,7 +1362,18 @@
         "url": "https://note.com/kankare/n/nd01722f085a6",
         "title": "トラックボールは「静音」が制す。王者Logicool M575SP vs MX ERGO S！エレコム・ProtoArcを抑えた最強の1台は？",
         "mentionCount": 1
-      }
+      },
+      "mediaReferences": [
+        {
+          "type": "youtube",
+          "videoId": "-roGEaTEAi0",
+          "title": "レビューPerixx ぺリックス PERIPRO-303 GBK 34 mm 交換用トラックボール光沢仕上げブラックスピード型 PERIMICE-517/717/520/720 交換ボールロジクール/",
+          "channelName": "もののひみつ",
+          "thumbnailUrl": "https://i.ytimg.com/vi/-roGEaTEAi0/mqdefault.jpg",
+          "publishedAt": "2025-07-18T12:46:46Z",
+          "viewCount": 1
+        }
+      ]
     },
     {
       "id": "trackball-b0dyds6v55",
@@ -900,7 +1406,27 @@
         "url": "https://note.com/kankare/n/nd01722f085a6",
         "title": "トラックボールは「静音」が制す。王者Logicool M575SP vs MX ERGO S！エレコム・ProtoArcを抑えた最強の1台は？",
         "mentionCount": 1
-      }
+      },
+      "mediaReferences": [
+        {
+          "type": "youtube",
+          "videoId": "3elepRY0mHA",
+          "title": "レビューNulea M501 ワイヤレス トラックボールマウス 3台接続可能 Bluetooth/USB接続 4段階DPI調節可能 充電式 親指操作 人間工学設計 6ボタン 進む/戻るボタン搭載 マウ",
+          "channelName": "レビュー侍",
+          "thumbnailUrl": "https://i.ytimg.com/vi/3elepRY0mHA/mqdefault.jpg",
+          "publishedAt": "2025-07-18T07:56:34Z",
+          "viewCount": 45
+        },
+        {
+          "type": "youtube",
+          "videoId": "Tb_ToX8rxIg",
+          "title": "レビュー Nulea M501 ワイヤレス トラックボールマウス 3台接続可能 Bluetooth/USB接続 4段階DPI調節可能 充電式 親指操作 人間工学設計 6ボタン 進む/戻るボタン搭載 マ",
+          "channelName": "テック・トーク",
+          "thumbnailUrl": "https://i.ytimg.com/vi/Tb_ToX8rxIg/mqdefault.jpg",
+          "publishedAt": "2025-11-07T23:57:38Z",
+          "viewCount": 13
+        }
+      ]
     },
     {
       "id": "trackball-b0czknnnxj",
@@ -933,7 +1459,36 @@
         "url": "https://note.com/kankare/n/nd01722f085a6",
         "title": "トラックボールは「静音」が制す。王者Logicool M575SP vs MX ERGO S！エレコム・ProtoArcを抑えた最強の1台は？",
         "mentionCount": 1
-      }
+      },
+      "mediaReferences": [
+        {
+          "type": "youtube",
+          "videoId": "tYsLh6b_STQ",
+          "title": "【ベアリングどお？】エレコムのベアリングトラックボール「IST」を買ってみた。視聴者リクエスト動画です",
+          "channelName": "戸田覚：ガジェット【辛口】点数評価",
+          "thumbnailUrl": "https://i.ytimg.com/vi/tYsLh6b_STQ/mqdefault.jpg",
+          "publishedAt": "2024-10-08T09:00:52Z",
+          "viewCount": 20159
+        },
+        {
+          "type": "youtube",
+          "videoId": "DEqvMjIQnlo",
+          "title": "エレコムの親指トラックボール「IST PRO」開封レビュー。ボールの位置が丁度良い感じです。【ELECOM/バッテリーパック/Bluetoothペアリング】",
+          "channelName": "ツキシマ娯楽堂",
+          "thumbnailUrl": "https://i.ytimg.com/vi/DEqvMjIQnlo/mqdefault.jpg",
+          "publishedAt": "2025-12-13T22:24:42Z",
+          "viewCount": 171
+        },
+        {
+          "type": "youtube",
+          "videoId": "pui8y8oOzi8",
+          "title": "レビュー エレコム(ELECOM) エレコム ワイヤレス トラックボールマウス Bluetooth IST (イスト) シリーズ 5ボタン 親指操作 ベアリング支持 Windows Mac Chrom",
+          "channelName": "スマート生活",
+          "thumbnailUrl": "https://i.ytimg.com/vi/pui8y8oOzi8/mqdefault.jpg",
+          "publishedAt": "2025-11-07T23:42:28Z",
+          "viewCount": 20
+        }
+      ]
     },
     {
       "id": "trackball-b0fhq5kbr1",
@@ -966,7 +1521,27 @@
         "url": "https://note.com/kankare/n/nd01722f085a6",
         "title": "トラックボールは「静音」が制す。王者Logicool M575SP vs MX ERGO S！エレコム・ProtoArcを抑えた最強の1台は？",
         "mentionCount": 1
-      }
+      },
+      "mediaReferences": [
+        {
+          "type": "youtube",
+          "videoId": "k2HcqscOSbY",
+          "title": "【8ヶ月ガチ使用】ProtoArc EM04徹底レビュー！無線＆Bluetooth対応！初のトラックボールマウスはこれで決まり？",
+          "channelName": "PINTOKURU【ガジェット紹介】ぴんとくる",
+          "thumbnailUrl": "https://i.ytimg.com/vi/k2HcqscOSbY/mqdefault.jpg",
+          "publishedAt": "2025-04-18T07:21:54Z",
+          "viewCount": 637
+        },
+        {
+          "type": "youtube",
+          "videoId": "YGRpeAJrE84",
+          "title": "レビュー ProtoArc トラックボールマウス 静音 Bluetooth/USB接続 3台同時接続 マウス トラックボール 無線 USB-C充電式 5段階DPI切替 進む/戻るボタン搭載 親指操作",
+          "channelName": "テック・トーク",
+          "thumbnailUrl": "https://i.ytimg.com/vi/YGRpeAJrE84/mqdefault.jpg",
+          "publishedAt": "2025-11-07T23:47:35Z",
+          "viewCount": 24
+        }
+      ]
     },
     {
       "id": "trackball-b016qcpnuw",
@@ -999,7 +1574,36 @@
         "url": "https://note.com/kankare/n/nd01722f085a6",
         "title": "トラックボールは「静音」が制す。王者Logicool M575SP vs MX ERGO S！エレコム・ProtoArcを抑えた最強の1台は？",
         "mentionCount": 1
-      }
+      },
+      "mediaReferences": [
+        {
+          "type": "youtube",
+          "videoId": "BKc2Gv09RFc",
+          "title": "【PC作業環境】ELECOMトラックボールマウスM-XT3DRBK-Gを買った理由&使ってみた感想 #pcデスク #デスク周り #ガジェット",
+          "channelName": "りんco. / PC作業快適性追求",
+          "thumbnailUrl": "https://i.ytimg.com/vi/BKc2Gv09RFc/mqdefault.jpg",
+          "publishedAt": "2023-10-17T12:30:09Z",
+          "viewCount": 13466
+        },
+        {
+          "type": "youtube",
+          "videoId": "TmWMaFIRH5s",
+          "title": "ELECOMトラックボールをレビュー【M-XT3DR】",
+          "channelName": "ラベルマン",
+          "thumbnailUrl": "https://i.ytimg.com/vi/TmWMaFIRH5s/mqdefault.jpg",
+          "publishedAt": "2023-10-24T06:00:17Z",
+          "viewCount": 7469
+        },
+        {
+          "type": "youtube",
+          "videoId": "QdUwFmCOlnc",
+          "title": "【トラックボールマウス】ELECOM M-XT3DRBKのレビュー・・・かもしれない",
+          "channelName": "ゲンキホーテ",
+          "thumbnailUrl": "https://i.ytimg.com/vi/QdUwFmCOlnc/mqdefault.jpg",
+          "publishedAt": "2023-08-17T21:00:25Z",
+          "viewCount": 3661
+        }
+      ]
     },
     {
       "id": "trackball-b0d9y1snqt",
@@ -1032,7 +1636,36 @@
         "url": "https://note.com/kankare/n/nd01722f085a6",
         "title": "トラックボールは「静音」が制す。王者Logicool M575SP vs MX ERGO S！エレコム・ProtoArcを抑えた最強の1台は？",
         "mentionCount": 1
-      }
+      },
+      "mediaReferences": [
+        {
+          "type": "youtube",
+          "videoId": "iZl-jnoIh1M",
+          "title": "トラックボールMXErgoを使ってみてわかった衝撃の事実３選 #デスク周り #ライフハック #ガジェット",
+          "channelName": "ツヨシ | techyou",
+          "thumbnailUrl": "https://i.ytimg.com/vi/iZl-jnoIh1M/mqdefault.jpg",
+          "publishedAt": "2023-03-22T09:00:22Z",
+          "viewCount": 5896390
+        },
+        {
+          "type": "youtube",
+          "videoId": "KpfTw1iSVVg",
+          "title": "【PC疲労】神進化のロジクール新型トラックボールマウスがキター！【M575SP＆MX Ergo S】",
+          "channelName": "カズチャンネル/Kazu Channel",
+          "thumbnailUrl": "https://i.ytimg.com/vi/KpfTw1iSVVg/mqdefault.jpg",
+          "publishedAt": "2024-11-08T10:00:16Z",
+          "viewCount": 100680
+        },
+        {
+          "type": "youtube",
+          "videoId": "34-kJyaiJPk",
+          "title": "【Logicool MX ERGO Sを使いこなす】お前らの設定は間違っている|2024年版・ジェスチャー操作",
+          "channelName": "メガネ🦊M天パ",
+          "thumbnailUrl": "https://i.ytimg.com/vi/34-kJyaiJPk/mqdefault.jpg",
+          "publishedAt": "2024-10-26T10:00:05Z",
+          "viewCount": 63616
+        }
+      ]
     },
     {
       "id": "trackball-b0d9y1j4nh",
@@ -1065,7 +1698,36 @@
         "url": "https://note.com/kankare/n/nd01722f085a6",
         "title": "トラックボールは「静音」が制す。王者Logicool M575SP vs MX ERGO S！エレコム・ProtoArcを抑えた最強の1台は？",
         "mentionCount": 1
-      }
+      },
+      "mediaReferences": [
+        {
+          "type": "youtube",
+          "videoId": "NsbAjzr3joc",
+          "title": "【注意点】大人気トラックボールLogicool M575を使う上での注意点・メンテナンス方法を解説！#ガジェット #デスク周り #ライフハック",
+          "channelName": "ツヨシ | techyou",
+          "thumbnailUrl": "https://i.ytimg.com/vi/NsbAjzr3joc/mqdefault.jpg",
+          "publishedAt": "2024-02-01T09:00:17Z",
+          "viewCount": 870216
+        },
+        {
+          "type": "youtube",
+          "videoId": "KpfTw1iSVVg",
+          "title": "【PC疲労】神進化のロジクール新型トラックボールマウスがキター！【M575SP＆MX Ergo S】",
+          "channelName": "カズチャンネル/Kazu Channel",
+          "thumbnailUrl": "https://i.ytimg.com/vi/KpfTw1iSVVg/mqdefault.jpg",
+          "publishedAt": "2024-11-08T10:00:16Z",
+          "viewCount": 100680
+        },
+        {
+          "type": "youtube",
+          "videoId": "q8JOQRPoODY",
+          "title": "【されどUSB-C】ロジクールの新トラックボール「MX ERGO S」「ERGO M575SP」を2台まとめてレビュー！",
+          "channelName": "戸田覚：ガジェット【辛口】点数評価",
+          "thumbnailUrl": "https://i.ytimg.com/vi/q8JOQRPoODY/mqdefault.jpg",
+          "publishedAt": "2024-09-15T09:00:44Z",
+          "viewCount": 49068
+        }
+      ]
     },
     {
       "id": "monitor-b0dmn94q8m",
@@ -1098,7 +1760,36 @@
         "url": "https://note.com/kankare/n/nde85c912a723",
         "title": "【価格崩壊】8000円のモバイルモニターが1位！？AmazonモニターランキングTOP10。240HzのREGZAも3万円台でヤバい【2026年1月】",
         "mentionCount": 1
-      }
+      },
+      "mediaReferences": [
+        {
+          "type": "youtube",
+          "videoId": "f9Y_1kT6EiE",
+          "title": "【コスパ最強】テレビメーカーが本気で作ったゲーミングモニターがおすすめ！【REGZA/レグザ】",
+          "channelName": "GreedZz",
+          "thumbnailUrl": "https://i.ytimg.com/vi/f9Y_1kT6EiE/mqdefault.jpg",
+          "publishedAt": "2025-08-25T09:01:01Z",
+          "viewCount": 48117
+        },
+        {
+          "type": "youtube",
+          "videoId": "HXwaxFE4DvI",
+          "title": "【なめらかな映像と高速レスポンスで快適プレイ】レグザのゲーミングモニターを徹底解説！",
+          "channelName": "レグザ",
+          "thumbnailUrl": "https://i.ytimg.com/vi/HXwaxFE4DvI/mqdefault.jpg",
+          "publishedAt": "2025-01-16T08:00:13Z",
+          "viewCount": 30225
+        },
+        {
+          "type": "youtube",
+          "videoId": "r56nAaIE11g",
+          "title": "モンハンワイルズに向いているモニター【個人的オススメ】",
+          "channelName": "せな【物欲キング】JamyJamyStudio",
+          "thumbnailUrl": "https://i.ytimg.com/vi/r56nAaIE11g/mqdefault.jpg",
+          "publishedAt": "2025-03-20T07:46:20Z",
+          "viewCount": 4860
+        }
+      ]
     },
     {
       "id": "monitor-b07lh1zdsl",
@@ -1131,7 +1822,27 @@
         "url": "https://note.com/kankare/n/nde85c912a723",
         "title": "【価格崩壊】8000円のモバイルモニターが1位！？AmazonモニターランキングTOP10。240HzのREGZAも3万円台でヤバい【2026年1月】",
         "mentionCount": 1
-      }
+      },
+      "mediaReferences": [
+        {
+          "type": "youtube",
+          "videoId": "RCXySQsz9so",
+          "title": "【激安モニター】ASUS フレームレス モニター VZ249HR 13900円",
+          "channelName": "ひふみしごろう",
+          "thumbnailUrl": "https://i.ytimg.com/vi/RCXySQsz9so/mqdefault.jpg",
+          "publishedAt": "2024-08-01T10:48:36Z",
+          "viewCount": 1013
+        },
+        {
+          "type": "youtube",
+          "videoId": "n4q-G3oOVbg",
+          "title": "レビュー【Amazon.co.jp限定】ASUS モニター Eyer Care VZ249HR 23.8インチ/フルHD/IPS/薄さ7mm/ブルーライト軽減/フリッカーフリー/HDMI D-sub/",
+          "channelName": "試してみたよ",
+          "thumbnailUrl": "https://i.ytimg.com/vi/n4q-G3oOVbg/mqdefault.jpg",
+          "publishedAt": "2025-07-02T11:17:29Z",
+          "viewCount": 33
+        }
+      ]
     },
     {
       "id": "monitor-b0cg5vdgky",
@@ -1164,7 +1875,36 @@
         "url": "https://note.com/kankare/n/nde85c912a723",
         "title": "【価格崩壊】8000円のモバイルモニターが1位！？AmazonモニターランキングTOP10。240HzのREGZAも3万円台でヤバい【2026年1月】",
         "mentionCount": 1
-      }
+      },
+      "mediaReferences": [
+        {
+          "type": "youtube",
+          "videoId": "-qbr2eHB0ck",
+          "title": "\"絶対に買って良い\"ゲーミングモニター1選【 MF24X3C 】",
+          "channelName": "脱力思考ラボ",
+          "thumbnailUrl": "https://i.ytimg.com/vi/-qbr2eHB0ck/mqdefault.jpg",
+          "publishedAt": "2024-05-03T09:03:49Z",
+          "viewCount": 12581
+        },
+        {
+          "type": "youtube",
+          "videoId": "5dZOVOjj64I",
+          "title": "Amazonプライムセール購入品　2025 秋",
+          "channelName": "ヒトオモイ",
+          "thumbnailUrl": "https://i.ytimg.com/vi/5dZOVOjj64I/mqdefault.jpg",
+          "publishedAt": "2025-10-08T05:38:26Z",
+          "viewCount": 58
+        },
+        {
+          "type": "youtube",
+          "videoId": "1GwciCBm-o4",
+          "title": "レビュー Minifire モニター27インチ 120Hz フルHD 1920x1080 IPSパネル ディスプレイ USB-Type C/HDMI スピーカー内蔵 Adaptive Sync OD",
+          "channelName": "解決ガジェット",
+          "thumbnailUrl": "https://i.ytimg.com/vi/1GwciCBm-o4/mqdefault.jpg",
+          "publishedAt": "2025-10-18T16:46:58Z",
+          "viewCount": 60
+        }
+      ]
     },
     {
       "id": "monitor-b0dg4rkzmd",
@@ -1230,7 +1970,36 @@
         "url": "https://note.com/kankare/n/nde85c912a723",
         "title": "【価格崩壊】8000円のモバイルモニターが1位！？AmazonモニターランキングTOP10。240HzのREGZAも3万円台でヤバい【2026年1月】",
         "mentionCount": 1
-      }
+      },
+      "mediaReferences": [
+        {
+          "type": "youtube",
+          "videoId": "fGY6ZXAKOt0",
+          "title": "白ゲーミングモニタはこれが鉄板【Pixio PX248 Wave White】 #shorts",
+          "channelName": "ゲーミングPCチャンネル",
+          "thumbnailUrl": "https://i.ytimg.com/vi/fGY6ZXAKOt0/mqdefault.jpg",
+          "publishedAt": "2024-09-07T03:18:46Z",
+          "viewCount": 728811
+        },
+        {
+          "type": "youtube",
+          "videoId": "VzOq_pAO5b4",
+          "title": "【初心者向け】コスパ最強Pixioの新作ゲーミングモニターをレビュー！エントリー向けの選択肢が増える予感【PX248 Prime Plus】",
+          "channelName": "モニ研 / Monitor lab.",
+          "thumbnailUrl": "https://i.ytimg.com/vi/VzOq_pAO5b4/mqdefault.jpg",
+          "publishedAt": "2024-08-23T10:00:35Z",
+          "viewCount": 100107
+        },
+        {
+          "type": "youtube",
+          "videoId": "fNi9ziK0l7E",
+          "title": "レビュー Pixio PX248 Wave White ゲーミングモニター 白 ホワイト 23.8インチ 200Hz FHD スピーカー内蔵 2年保証 30日間返品保証",
+          "channelName": "ミライ研究所",
+          "thumbnailUrl": "https://i.ytimg.com/vi/fNi9ziK0l7E/mqdefault.jpg",
+          "publishedAt": "2025-10-23T06:32:25Z",
+          "viewCount": 17
+        }
+      ]
     },
     {
       "id": "monitor-b0fhjynl1j",
@@ -1296,7 +2065,36 @@
         "url": "https://note.com/kankare/n/nde85c912a723",
         "title": "【価格崩壊】8000円のモバイルモニターが1位！？AmazonモニターランキングTOP10。240HzのREGZAも3万円台でヤバい【2026年1月】",
         "mentionCount": 1
-      }
+      },
+      "mediaReferences": [
+        {
+          "type": "youtube",
+          "videoId": "soU5YLvDvdc",
+          "title": "レビュー【Amazon.co.jp 限定】アイ・オー・データ IODATA モニター 21.5インチ ブラック ADSパネル 非光沢 省電力 (HDMI/アナログRGB/スピーカー付/VESA対応/土",
+          "channelName": "プロダクトの鏡",
+          "thumbnailUrl": "https://i.ytimg.com/vi/soU5YLvDvdc/mqdefault.jpg",
+          "publishedAt": "2025-03-17T17:07:34Z",
+          "viewCount": 138
+        },
+        {
+          "type": "youtube",
+          "videoId": "xUXDddOVkP0",
+          "title": "レビューI-O DATA 【Amazon.co.jp 限定】アイ・オー・データ IODATA モニター 23.8インチ ブラック ADSパネル 非光沢 省電力 (HDMI/アナログRGB/スピーカー付",
+          "channelName": "テックレビュー",
+          "thumbnailUrl": "https://i.ytimg.com/vi/xUXDddOVkP0/mqdefault.jpg",
+          "publishedAt": "2025-08-04T06:34:39Z",
+          "viewCount": 49
+        },
+        {
+          "type": "youtube",
+          "videoId": "C4olNQkg0Mk",
+          "title": "外部モニターの人気ランキングTOP10 - 2025年11月版",
+          "channelName": "ガジェットランキング速報",
+          "thumbnailUrl": "https://i.ytimg.com/vi/C4olNQkg0Mk/mqdefault.jpg",
+          "publishedAt": "2025-11-07T09:00:17Z",
+          "viewCount": 19
+        }
+      ]
     },
     {
       "id": "trackball-b078hdtv8p",
@@ -1368,7 +2166,36 @@
         "url": "https://www.amazon.co.jp/dp/B081F9KVBG",
         "title": "Amazon PC用キーボード ベストセラー #1",
         "mentionCount": 3
-      }
+      },
+      "mediaReferences": [
+        {
+          "type": "youtube",
+          "videoId": "jqYiqtGXWEU",
+          "title": "Crucial BX500 Unboxing and Review!!!",
+          "channelName": "Milky Tech",
+          "thumbnailUrl": "https://i.ytimg.com/vi/jqYiqtGXWEU/mqdefault.jpg",
+          "publishedAt": "2022-10-06T15:56:32Z",
+          "viewCount": 1446
+        },
+        {
+          "type": "youtube",
+          "videoId": "h1Tr6_ylgT0",
+          "title": "レビューCrucial(クルーシャル) Crucial SSD 内蔵2.5インチ SATA接続 BX500 シリーズ 240GB 国内正規代理店品 CT240BX500SSD1JP",
+          "channelName": "おすすめ広場",
+          "thumbnailUrl": "https://i.ytimg.com/vi/h1Tr6_ylgT0/mqdefault.jpg",
+          "publishedAt": "2025-06-08T02:35:16Z",
+          "viewCount": 66
+        },
+        {
+          "type": "youtube",
+          "videoId": "BkaR6fqC-3Q",
+          "title": "レビューCrucial(クルーシャル) SSD 内蔵2.5インチ SATA接続 BX500 シリーズ 1TB 国内正規代理店品 CT1000BX500SSD1JP",
+          "channelName": "商品探検隊",
+          "thumbnailUrl": "https://i.ytimg.com/vi/BkaR6fqC-3Q/mqdefault.jpg",
+          "publishedAt": "2025-06-05T12:42:10Z",
+          "viewCount": 30
+        }
+      ]
     },
     {
       "id": "keyboard-b098ssj9l6",
@@ -1692,7 +2519,36 @@
         "url": "https://www.amazon.co.jp/dp/B097F37B4G",
         "title": "Amazon トラックボール ベストセラー #4",
         "mentionCount": 3
-      }
+      },
+      "mediaReferences": [
+        {
+          "type": "youtube",
+          "videoId": "g4MoLOUhVBs",
+          "title": "【自作PC】電源の選び方は思考停止で決めてヨシ！2023夏自作パソコン⓾ Corsair RM650x 80PLUS GOLD認証取得 650W静音電源ユニット PS593 CP-9020091-JP",
+          "channelName": "初級者ゆる自作PC -鵜白川ユキド-",
+          "thumbnailUrl": "https://i.ytimg.com/vi/g4MoLOUhVBs/mqdefault.jpg",
+          "publishedAt": "2023-09-27T13:45:07Z",
+          "viewCount": 26408
+        },
+        {
+          "type": "youtube",
+          "videoId": "GmYOgZlRtlY",
+          "title": "玄人志向 80Plus GOLD 850W ATX 電源 ユニット フルプラグイン セミファンレス KRPW-GA850W/90+",
+          "channelName": "Sude KARA",
+          "thumbnailUrl": "https://i.ytimg.com/vi/GmYOgZlRtlY/mqdefault.jpg",
+          "publishedAt": "2023-04-26T19:54:17Z",
+          "viewCount": 484
+        },
+        {
+          "type": "youtube",
+          "videoId": "BVOt7fUXoE4",
+          "title": "レビュー玄人志向 80Plus GOLD 850W ATX 電源 ユニット フルプラグイン セミファンレス 16ピンコネクタ対応 ホワイトモデル KRPW-GA850W/90+/WHITE",
+          "channelName": "商品チェック隊",
+          "thumbnailUrl": "https://i.ytimg.com/vi/BVOt7fUXoE4/mqdefault.jpg",
+          "publishedAt": "2025-06-05T11:42:49Z",
+          "viewCount": 214
+        }
+      ]
     },
     {
       "id": "trackball-b0cc4v3cj2",
@@ -1836,7 +2692,36 @@
         "url": "https://www.amazon.co.jp/dp/B0054TWH9E",
         "title": "Amazon モニターアーム ベストセラー #1",
         "mentionCount": 3
-      }
+      },
+      "mediaReferences": [
+        {
+          "type": "youtube",
+          "videoId": "NeDtDP_ZtTc",
+          "title": "OLED vs IPS vs AMOLED vs HDR 🔥 Kitna Antar Hai",
+          "channelName": "PC Tech Talk",
+          "thumbnailUrl": "https://i.ytimg.com/vi/NeDtDP_ZtTc/mqdefault.jpg",
+          "publishedAt": "2025-05-10T11:30:18Z",
+          "viewCount": 9991
+        },
+        {
+          "type": "youtube",
+          "videoId": "dg95-SUodRI",
+          "title": "Best 27 inch Full HD Monitors 🔥 Great Summer Sale 2025",
+          "channelName": "PC Tech Talk",
+          "thumbnailUrl": "https://i.ytimg.com/vi/dg95-SUodRI/mqdefault.jpg",
+          "publishedAt": "2025-05-03T12:18:25Z",
+          "viewCount": 9633
+        },
+        {
+          "type": "youtube",
+          "videoId": "vP7OS2Jl5g4",
+          "title": "Monitor & TV Lene Se Pahle Samjho 🔥 All Latest Display Technology 2025 🔥 Explained in Hindi",
+          "channelName": "PC Tech Talk",
+          "thumbnailUrl": "https://i.ytimg.com/vi/vP7OS2Jl5g4/mqdefault.jpg",
+          "publishedAt": "2025-02-08T04:10:50Z",
+          "viewCount": 7766
+        }
+      ]
     },
     {
       "id": "monitor-arm-b0011ytfqo",
@@ -2016,7 +2901,36 @@
         "url": "https://www.amazon.co.jp/dp/B07WDZLMKL",
         "title": "Amazon PC用ヘッドセット ベストセラー #7",
         "mentionCount": 3
-      }
+      },
+      "mediaReferences": [
+        {
+          "type": "youtube",
+          "videoId": "uO_mFra4V1g",
+          "title": "安くて冷える！M.2 SSDヒートシンク Thermalright M 2 2280 TYPE A Gを買ってみた",
+          "channelName": "ふわふわハードウェア",
+          "thumbnailUrl": "https://i.ytimg.com/vi/uO_mFra4V1g/mqdefault.jpg",
+          "publishedAt": "2025-01-25T10:01:03Z",
+          "viewCount": 34906
+        },
+        {
+          "type": "youtube",
+          "videoId": "jO6i-_nTD64",
+          "title": "【ゆっくり】M 2 SSD のヒートシンクの取り付けマニュアル【Thermalright】",
+          "channelName": "もぐさラボ",
+          "thumbnailUrl": "https://i.ytimg.com/vi/jO6i-_nTD64/mqdefault.jpg",
+          "publishedAt": "2023-10-10T10:00:26Z",
+          "viewCount": 16159
+        },
+        {
+          "type": "youtube",
+          "videoId": "Lkh_cAtZ1aA",
+          "title": "ELUTENG M.2 SSD NVME Heatsink Fits PS5 & PC, Unboxing, Review & Install",
+          "channelName": "MotorKnobs",
+          "thumbnailUrl": "https://i.ytimg.com/vi/Lkh_cAtZ1aA/mqdefault.jpg",
+          "publishedAt": "2022-05-10T12:35:14Z",
+          "viewCount": 6523
+        }
+      ]
     },
     {
       "id": "headphone-b089rbkh31",
@@ -2268,7 +3182,18 @@
         "url": "https://www.amazon.co.jp/dp/B0BFW2GVF3",
         "title": "Amazon Webカメラ ベストセラー #13",
         "mentionCount": 3
-      }
+      },
+      "mediaReferences": [
+        {
+          "type": "youtube",
+          "videoId": "7AZ3wEJBf-w",
+          "title": "レビューDuKabel 25cm USB外付け サウンドカード usb イヤホンジャック 変換 USB オーディオ 変換アダプタ USBポート-4極（TRRS）3.5mmミニジャック変換ケーブル US",
+          "channelName": "プロダクトの鏡",
+          "thumbnailUrl": "https://i.ytimg.com/vi/7AZ3wEJBf-w/mqdefault.jpg",
+          "publishedAt": "2025-06-07T00:44:24Z",
+          "viewCount": 15
+        }
+      ]
     },
     {
       "id": "hub-b07p1xb7bg",
@@ -2304,7 +3229,36 @@
         "url": "https://www.amazon.co.jp/dp/B07P1XB7BG",
         "title": "Amazon USBハブ ベストセラー #1",
         "mentionCount": 3
-      }
+      },
+      "mediaReferences": [
+        {
+          "type": "youtube",
+          "videoId": "9LbiahUo_B4",
+          "title": "USB SD Card Reader - Anker USB 3.0 Card Reader 8-in-1 Review",
+          "channelName": "Immersive Tech TV",
+          "thumbnailUrl": "https://i.ytimg.com/vi/9LbiahUo_B4/mqdefault.jpg",
+          "publishedAt": "2016-12-24T21:49:22Z",
+          "viewCount": 52496
+        },
+        {
+          "type": "youtube",
+          "videoId": "A1HOZXgkC14",
+          "title": "ダイソー USB Type-C カードリーダー が激安220円 ！iPadにも使えた！【DAISO】",
+          "channelName": "かじまっくチャンネル",
+          "thumbnailUrl": "https://i.ytimg.com/vi/A1HOZXgkC14/mqdefault.jpg",
+          "publishedAt": "2024-02-25T08:56:35Z",
+          "viewCount": 33629
+        },
+        {
+          "type": "youtube",
+          "videoId": "HnoJBpcr28E",
+          "title": "AnkerのSDカードリーダーを使ってiPhone15,16シリーズの写真や動画をSDカードに移す方法#shorts #iphone #anker #sdカード",
+          "channelName": "すぐる@iPhone・ガジェット",
+          "thumbnailUrl": "https://i.ytimg.com/vi/HnoJBpcr28E/mqdefault.jpg",
+          "publishedAt": "2024-11-16T10:44:17Z",
+          "viewCount": 36526
+        }
+      ]
     },
     {
       "id": "hub-b08135d6fw",
@@ -2412,7 +3366,36 @@
         "url": "https://www.amazon.co.jp/dp/B006T9B6R2",
         "title": "Amazon USBハブ ベストセラー #10",
         "mentionCount": 3
-      }
+      },
+      "mediaReferences": [
+        {
+          "type": "youtube",
+          "videoId": "9LbiahUo_B4",
+          "title": "USB SD Card Reader - Anker USB 3.0 Card Reader 8-in-1 Review",
+          "channelName": "Immersive Tech TV",
+          "thumbnailUrl": "https://i.ytimg.com/vi/9LbiahUo_B4/mqdefault.jpg",
+          "publishedAt": "2016-12-24T21:49:22Z",
+          "viewCount": 52496
+        },
+        {
+          "type": "youtube",
+          "videoId": "HnoJBpcr28E",
+          "title": "AnkerのSDカードリーダーを使ってiPhone15,16シリーズの写真や動画をSDカードに移す方法#shorts #iphone #anker #sdカード",
+          "channelName": "すぐる@iPhone・ガジェット",
+          "thumbnailUrl": "https://i.ytimg.com/vi/HnoJBpcr28E/mqdefault.jpg",
+          "publishedAt": "2024-11-16T10:44:17Z",
+          "viewCount": 36526
+        },
+        {
+          "type": "youtube",
+          "videoId": "2HMG7Mb-vUI",
+          "title": "Anker 2-in-1 USB-C Memory Card Reader REVIEW (new for 2018)",
+          "channelName": "Isaiah's Reviews",
+          "thumbnailUrl": "https://i.ytimg.com/vi/2HMG7Mb-vUI/mqdefault.jpg",
+          "publishedAt": "2018-06-09T09:59:40Z",
+          "viewCount": 9624
+        }
+      ]
     },
     {
       "id": "hub-b0dzhb3897",
@@ -2772,7 +3755,18 @@
         "url": "https://www.amazon.co.jp/dp/B08GKJ21Y5",
         "title": "Amazon デスクマット ベストセラー #10",
         "mentionCount": 3
-      }
+      },
+      "mediaReferences": [
+        {
+          "type": "youtube",
+          "videoId": "B6LH0WnRpFI",
+          "title": "鬼ピタ 魔法のテープ 両面テープ はがせる 超強力 マステ付 保管袋付 壁紙対応 正規品 (横幅3cm×厚み0.2cm×長さ3M)",
+          "channelName": "Berke Camgöz",
+          "thumbnailUrl": "https://i.ytimg.com/vi/B6LH0WnRpFI/mqdefault.jpg",
+          "publishedAt": "2023-05-02T15:17:15Z",
+          "viewCount": 285
+        }
+      ]
     },
     {
       "id": "desk-mat-b0g6jxgm53",
@@ -2952,7 +3946,36 @@
         "url": "https://zenn.dev/komatsuh/articles/komatsuh_desk_2024",
         "title": "作業用デスク環境のまとめ 2024",
         "mentionCount": 2
-      }
+      },
+      "mediaReferences": [
+        {
+          "type": "youtube",
+          "videoId": "Jh3wrLPBG-U",
+          "title": "デスクごとチェアマット ゲーミングチェアマット ダイニングマット 床保護マット SALLOUS 特大サイズ160×130cm PVC 抗菌 防カビ ズレない 厚さ1.5mm 静電気防止 無味無臭",
+          "channelName": "勇気を出せ",
+          "thumbnailUrl": "https://i.ytimg.com/vi/Jh3wrLPBG-U/mqdefault.jpg",
+          "publishedAt": "2020-09-22T15:13:21Z",
+          "viewCount": 1247
+        },
+        {
+          "type": "youtube",
+          "videoId": "r6eue3V_vJE",
+          "title": "レビューデスクごとチェアマット ゲーミングチェアマット ダイニングマット 床保護マット カーペット対応 SALLOUS 特大サイズ160×130cm PVC 抗菌 防カビ ズレない 厚さ1.5mm 静",
+          "channelName": "評価マスター",
+          "thumbnailUrl": "https://i.ytimg.com/vi/r6eue3V_vJE/mqdefault.jpg",
+          "publishedAt": "2025-06-11T20:22:15Z",
+          "viewCount": 52
+        },
+        {
+          "type": "youtube",
+          "videoId": "I2wdD2ZXvRU",
+          "title": "レビューデスクごとチェアマット ゲーミングチェアマット ダイニングマット 床保護マット カーペット対応 SALLOUS 特大サイズ160×130cm PVC 抗菌 防カビ ズレない 厚さ1.5mm 静",
+          "channelName": "本音チェック",
+          "thumbnailUrl": "https://i.ytimg.com/vi/I2wdD2ZXvRU/mqdefault.jpg",
+          "publishedAt": "2025-04-14T02:59:32Z",
+          "viewCount": 36
+        }
+      ]
     },
     {
       "id": "other-b0b8nncx2v",
