@@ -5,7 +5,7 @@
 
 import { Item } from '@/types'
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://desk-goods-rank.vercel.app'
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://desk-goods-rank.com'
 
 // WebSite スキーマ（サイト全体）
 export function WebSiteJsonLd() {

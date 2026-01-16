@@ -6,7 +6,7 @@
 import { MetadataRoute } from 'next'
 import { getAllItems, getAllCategories } from '@/data'
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://desk-goods-rank.vercel.app'
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://desk-goods-rank.com'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const items = getAllItems()
