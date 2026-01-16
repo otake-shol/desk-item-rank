@@ -70,22 +70,6 @@ export function Footer() {
                   このサイトについて
                 </Link>
               </li>
-              <li>
-                <Link
-                  href="/privacy"
-                  className="text-sm text-[#8888a0] transition-colors hover:text-[#00d4ff]"
-                >
-                  プライバシーポリシー
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/contact"
-                  className="text-sm text-[#8888a0] transition-colors hover:text-[#00d4ff]"
-                >
-                  お問い合わせ
-                </Link>
-              </li>
             </ul>
           </div>
         </div>
