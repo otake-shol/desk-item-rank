@@ -24,7 +24,6 @@
       ],
       "brand": "Dell",
       "featured": true,
-      "isNew": false,
       "createdAt": "2024-01-01",
       "updatedAt": "2024-01-15",
       "socialScore": {
@@ -56,7 +55,6 @@
       ],
       "brand": "PFU",
       "featured": true,
-      "isNew": false,
       "createdAt": "2024-01-05",
       "updatedAt": "2024-01-10",
       "socialScore": {
@@ -88,7 +86,6 @@
       ],
       "brand": "Logicool",
       "featured": true,
-      "isNew": false,
       "createdAt": "2024-01-08",
       "updatedAt": "2024-01-12",
       "socialScore": {
@@ -120,7 +117,6 @@
       ],
       "brand": "Sony",
       "featured": false,
-      "isNew": true,
       "createdAt": "2024-01-14",
       "updatedAt": "2024-01-14",
       "socialScore": {
@@ -151,7 +147,6 @@
       ],
       "brand": "FlexiSpot",
       "featured": true,
-      "isNew": false,
       "createdAt": "2024-01-02",
       "updatedAt": "2024-01-10",
       "socialScore": {
@@ -182,7 +177,6 @@
       ],
       "brand": "Ergohuman",
       "featured": false,
-      "isNew": false,
       "createdAt": "2024-01-03",
       "updatedAt": "2024-01-08",
       "socialScore": {
@@ -213,7 +207,6 @@
       ],
       "brand": "Ergotron",
       "featured": false,
-      "isNew": true,
       "createdAt": "2024-01-13",
       "updatedAt": "2024-01-13",
       "socialScore": {
@@ -245,7 +238,6 @@
       ],
       "brand": "BenQ",
       "featured": true,
-      "isNew": false,
       "createdAt": "2024-01-04",
       "updatedAt": "2024-01-09",
       "socialScore": {
@@ -277,7 +269,6 @@
       ],
       "brand": "Grovemade",
       "featured": false,
-      "isNew": false,
       "createdAt": "2024-01-06",
       "updatedAt": "2024-01-11",
       "socialScore": {
@@ -309,7 +300,6 @@
       ],
       "brand": "Philips",
       "featured": false,
-      "isNew": true,
       "createdAt": "2024-01-12",
       "updatedAt": "2024-01-12",
       "socialScore": {
@@ -336,7 +326,6 @@
       "tags": [],
       "brand": "KEEPTIME",
       "featured": false,
-      "isNew": true,
       "createdAt": "2026-01-15",
       "updatedAt": "2026-01-15",
       "socialScore": {
@@ -370,7 +359,6 @@
       "tags": [],
       "brand": "サンワダイレクト",
       "featured": false,
-      "isNew": true,
       "createdAt": "2026-01-15",
       "updatedAt": "2026-01-15",
       "socialScore": {
@@ -404,7 +392,6 @@
       "tags": [],
       "brand": "ErGear",
       "featured": false,
-      "isNew": true,
       "createdAt": "2026-01-15",
       "updatedAt": "2026-01-15",
       "socialScore": {
@@ -438,7 +425,6 @@
       "tags": [],
       "brand": "エレコム",
       "featured": false,
-      "isNew": true,
       "createdAt": "2026-01-15",
       "updatedAt": "2026-01-15",
       "socialScore": {
@@ -472,7 +458,6 @@
       "tags": [],
       "brand": "Logicool",
       "featured": false,
-      "isNew": true,
       "createdAt": "2026-01-15",
       "updatedAt": "2026-01-15",
       "socialScore": {
@@ -506,7 +491,6 @@
       "tags": [],
       "brand": "TKGOU",
       "featured": false,
-      "isNew": true,
       "createdAt": "2026-01-15",
       "updatedAt": "2026-01-15",
       "socialScore": {
@@ -540,7 +524,6 @@
       "tags": [],
       "brand": "FIIO",
       "featured": false,
-      "isNew": true,
       "createdAt": "2026-01-15",
       "updatedAt": "2026-01-15",
       "socialScore": {
@@ -574,7 +557,6 @@
       "tags": [],
       "brand": "FIIO",
       "featured": false,
-      "isNew": true,
       "createdAt": "2026-01-15",
       "updatedAt": "2026-01-15",
       "socialScore": {
@@ -608,7 +590,6 @@
       "tags": [],
       "brand": "FIIO",
       "featured": false,
-      "isNew": true,
       "createdAt": "2026-01-15",
       "updatedAt": "2026-01-15",
       "socialScore": {
@@ -642,7 +623,6 @@
       "tags": [],
       "brand": "FX-AUDIO-",
       "featured": false,
-      "isNew": true,
       "createdAt": "2026-01-15",
       "updatedAt": "2026-01-15",
       "socialScore": {
@@ -676,7 +656,6 @@
       "tags": [],
       "brand": "小物",
       "featured": false,
-      "isNew": true,
       "createdAt": "2026-01-15",
       "updatedAt": "2026-01-15",
       "socialScore": {
@@ -710,7 +689,6 @@
       "tags": [],
       "brand": "Amazon",
       "featured": false,
-      "isNew": true,
       "createdAt": "2026-01-15",
       "updatedAt": "2026-01-15",
       "socialScore": {
@@ -744,7 +722,6 @@
       "tags": [],
       "brand": "Baseus",
       "featured": false,
-      "isNew": true,
       "createdAt": "2026-01-15",
       "updatedAt": "2026-01-15",
       "socialScore": {
@@ -778,7 +755,6 @@
       "tags": [],
       "brand": "エレコム",
       "featured": false,
-      "isNew": true,
       "createdAt": "2026-01-15",
       "updatedAt": "2026-01-15",
       "socialScore": {
@@ -812,7 +788,6 @@
       "tags": [],
       "brand": "エレコム",
       "featured": false,
-      "isNew": true,
       "createdAt": "2026-01-15",
       "updatedAt": "2026-01-15",
       "socialScore": {
@@ -846,7 +821,6 @@
       "tags": [],
       "brand": "ProtoArc",
       "featured": false,
-      "isNew": true,
       "createdAt": "2026-01-15",
       "updatedAt": "2026-01-15",
       "socialScore": {
@@ -880,7 +854,6 @@
       "tags": [],
       "brand": "ぺリックス",
       "featured": false,
-      "isNew": true,
       "createdAt": "2026-01-15",
       "updatedAt": "2026-01-15",
       "socialScore": {
@@ -914,7 +887,6 @@
       "tags": [],
       "brand": "Nulea",
       "featured": false,
-      "isNew": true,
       "createdAt": "2026-01-15",
       "updatedAt": "2026-01-15",
       "socialScore": {
@@ -948,7 +920,6 @@
       "tags": [],
       "brand": "エレコム",
       "featured": false,
-      "isNew": true,
       "createdAt": "2026-01-15",
       "updatedAt": "2026-01-15",
       "socialScore": {
@@ -982,7 +953,6 @@
       "tags": [],
       "brand": "ProtoArc",
       "featured": false,
-      "isNew": true,
       "createdAt": "2026-01-15",
       "updatedAt": "2026-01-15",
       "socialScore": {
@@ -1016,7 +986,6 @@
       "tags": [],
       "brand": "エレコム",
       "featured": false,
-      "isNew": true,
       "createdAt": "2026-01-15",
       "updatedAt": "2026-01-15",
       "socialScore": {
@@ -1050,7 +1019,6 @@
       "tags": [],
       "brand": "【Amazon.co.jp限定】",
       "featured": false,
-      "isNew": true,
       "createdAt": "2026-01-15",
       "updatedAt": "2026-01-15",
       "socialScore": {
@@ -1084,7 +1052,6 @@
       "tags": [],
       "brand": "【Amazon.co.jp限定】",
       "featured": false,
-      "isNew": true,
       "createdAt": "2026-01-15",
       "updatedAt": "2026-01-15",
       "socialScore": {
@@ -1118,7 +1085,6 @@
       "tags": [],
       "brand": "REGZA",
       "featured": false,
-      "isNew": true,
       "createdAt": "2026-01-15",
       "updatedAt": "2026-01-15",
       "socialScore": {
@@ -1152,7 +1118,6 @@
       "tags": [],
       "brand": "【Amazon.co.jp限定】ASUS",
       "featured": false,
-      "isNew": true,
       "createdAt": "2026-01-15",
       "updatedAt": "2026-01-15",
       "socialScore": {
@@ -1186,7 +1151,6 @@
       "tags": [],
       "brand": "Minifire",
       "featured": false,
-      "isNew": true,
       "createdAt": "2026-01-15",
       "updatedAt": "2026-01-15",
       "socialScore": {
@@ -1220,7 +1184,6 @@
       "tags": [],
       "brand": "KTC",
       "featured": false,
-      "isNew": true,
       "createdAt": "2026-01-15",
       "updatedAt": "2026-01-15",
       "socialScore": {
@@ -1254,7 +1217,6 @@
       "tags": [],
       "brand": "Pixio",
       "featured": false,
-      "isNew": true,
       "createdAt": "2026-01-15",
       "updatedAt": "2026-01-15",
       "socialScore": {
@@ -1288,7 +1250,6 @@
       "tags": [],
       "brand": "Dell",
       "featured": false,
-      "isNew": true,
       "createdAt": "2026-01-15",
       "updatedAt": "2026-01-15",
       "socialScore": {
@@ -1322,7 +1283,6 @@
       "tags": [],
       "brand": "【Amazon.co.jp",
       "featured": false,
-      "isNew": true,
       "createdAt": "2026-01-15",
       "updatedAt": "2026-01-15",
       "socialScore": {

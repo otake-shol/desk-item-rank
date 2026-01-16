@@ -93,19 +93,10 @@ export function Footer() {
         </div>
 
         {/* コピーライト */}
-        <div className="mt-8 flex flex-col items-center justify-between gap-4 border-t border-white/5 pt-8 sm:flex-row">
+        <div className="mt-8 border-t border-white/5 pt-8 text-center">
           <p className="text-xs text-[#8888a0]">
             &copy; {currentYear} DeskItemRank. All rights reserved.
           </p>
-          <div className="flex items-center gap-4">
-            <span className="text-xs text-[#8888a0]">Powered by</span>
-            <div className="flex items-center gap-1 text-xs text-[#00d4ff]">
-              <svg className="h-4 w-4" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
-              </svg>
-              Next.js
-            </div>
-          </div>
         </div>
       </div>
     </footer>

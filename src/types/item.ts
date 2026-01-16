@@ -37,7 +37,6 @@ export interface Item {
   brand?: string
   releaseDate?: string
   featured: boolean
-  isNew: boolean
   createdAt: string
   updatedAt: string
 }

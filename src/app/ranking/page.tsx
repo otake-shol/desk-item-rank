@@ -37,12 +37,6 @@ export default function RankingPage() {
                 全アイテムランキング
               </h1>
             </div>
-            <p className="text-[#8888a0] max-w-2xl">
-              SNS・YouTube・note・Amazonのデータをもとに算出したスコアでランキング。
-              <Link href="/about" className="text-[#00d4ff] hover:underline ml-1">
-                スコアの算出方法を見る →
-              </Link>
-            </p>
             {/* カテゴリタブ */}
             <div className="mt-6 flex flex-wrap gap-2">
               <span className="rounded-full bg-[#00d4ff] px-4 py-1.5 text-sm font-medium text-black">
@@ -64,28 +58,10 @@ export default function RankingPage() {
         {/* ランキング一覧 */}
         <section className="py-12">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-            {/* TOP3 ハイライト */}
-            <div className="mb-12">
-              <h2 className="text-lg font-bold text-white mb-4 flex items-center gap-2">
-                <span className="text-[#ffd700]">👑</span> TOP 3
-              </h2>
-              <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
-                {allItems.slice(0, 3).map((item) => (
-                  <div key={item.id} className="relative">
-                    <RankingCard item={item} showRank />
-                  </div>
-                ))}
-              </div>
-            </div>
-
-            {/* 4位以降 */}
-            <div>
-              <h2 className="text-lg font-bold text-white mb-4">4位以降</h2>
-              <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-5">
-                {allItems.slice(3).map((item) => (
-                  <RankingCard key={item.id} item={item} showRank />
-                ))}
-              </div>
+            <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-5">
+              {allItems.map((item) => (
+                <RankingCard key={item.id} item={item} showRank />
+              ))}
             </div>
           </div>
         </section>

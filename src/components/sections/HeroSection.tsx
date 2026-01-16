@@ -18,14 +18,11 @@ export function HeroSection() {
         <div className="flex flex-col items-center gap-4 text-center sm:flex-row sm:justify-between sm:text-left">
           {/* 左側: テキスト */}
           <div>
-            <h1 className="text-2xl font-bold tracking-tight sm:text-3xl">
-              <span className="text-white">最高の</span>
-              <span className="gradient-text">デスク環境</span>
-              <span className="text-white">を見つけよう</span>
+            <h1 className="font-mono text-lg font-bold tracking-tight text-white sm:text-xl">
+              デスクツアーで見つけた、
+              <br className="sm:hidden" />
+              本当に使われてるモノ
             </h1>
-            <p className="mt-1 text-sm text-[#8888a0]">
-              SNS・YouTube・Amazonデータをもとに人気アイテムをランキング
-            </p>
           </div>
 
           {/* 右側: CTA */}

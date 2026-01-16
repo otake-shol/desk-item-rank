@@ -484,7 +484,6 @@ export function convertToItemFormat(
     tags: [],
     brand,
     featured: false,
-    isNew: true,
     createdAt: new Date().toISOString().split('T')[0],
     updatedAt: new Date().toISOString().split('T')[0],
     socialScore,

@@ -40,17 +40,6 @@ export function getTopByCategory(categoryId: CategoryId, limit: number = 3): Ite
 }
 
 /**
- * 新着アイテム取得
- * @param limit 取得件数（デフォルト: 5）
- */
-export function getNewArrivals(limit: number = 5): Item[] {
-  return getAllItems()
-    .filter((item) => item.isNew)
-    .sort((a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime())
-    .slice(0, limit)
-}
-
-/**
  * 注目アイテム取得
  */
 export function getFeaturedItems(): Item[] {

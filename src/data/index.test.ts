@@ -10,7 +10,6 @@ import {
   getAllItems,
   getTopRanking,
   getTopByCategory,
-  getNewArrivals,
   getFeaturedItems,
   getAllCategories,
   getItemById,
@@ -95,26 +94,6 @@ describe('Static Data - getTopByCategory', () => {
     lighting.forEach((item, index) => {
       expect(item.rank).toBe(index + 1)
     })
-  })
-})
-
-describe('Static Data - getNewArrivals', () => {
-  it('should return only items marked as new', () => {
-    const newItems = getNewArrivals(5)
-
-    newItems.forEach((item) => {
-      expect(item.isNew).toBe(true)
-    })
-  })
-
-  it('should sort by createdAt descending (newest first)', () => {
-    const newItems = getNewArrivals(5)
-
-    for (let i = 0; i < newItems.length - 1; i++) {
-      const current = new Date(newItems[i].createdAt).getTime()
-      const next = new Date(newItems[i + 1].createdAt).getTime()
-      expect(current).toBeGreaterThanOrEqual(next)
-    }
   })
 })
 

@@ -3,17 +3,20 @@
  * 仕様書: specs/01-top-page.md
  */
 
+import Link from 'next/link'
 import { Item } from '@/types'
 import { RankingCard } from '@/components/ui/RankingCard'
 
 interface RankingSectionProps {
   items: Item[]
   title?: string
+  totalCount?: number
 }
 
 export function RankingSection({
   items,
   title = '総合人気ランキング TOP10',
+  totalCount,
 }: RankingSectionProps) {
   return (
     <section id="ranking" className="pt-4 pb-12 bg-[#0a0a0f]">
@@ -29,10 +32,18 @@ export function RankingSection({
             <h2 className="text-xl font-bold text-white sm:text-2xl">
               {title}
             </h2>
+            {totalCount && (
+              <Link
+                href="/ranking"
+                className="ml-2 rounded-full bg-white/10 px-3 py-1 text-xs text-[#8888a0] hover:bg-white/20 hover:text-white transition-colors"
+              >
+                全{totalCount}件 →
+              </Link>
+            )}
           </div>
-          <span className="hidden text-sm text-[#8888a0] sm:block">
-            SNS・YouTube・Amazonデータをもとに算出
-          </span>
+          <Link href="/about" className="hidden text-sm text-[#8888a0] hover:text-[#00d4ff] transition-colors sm:block">
+            SNS・YouTube・Amazonデータをもとに算出 →
+          </Link>
         </div>
 
         {/* ランキングリスト */}

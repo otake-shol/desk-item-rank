@@ -10,13 +10,12 @@ import {
   HeroSection,
   RankingSection,
   CategoryPickupSection,
-  NewArrivalsSection,
 } from '@/components'
 import {
   getTopRanking,
   getTopByCategory,
   getAllCategories,
-  getNewArrivals,
+  getAllItems,
 } from '@/data'
 
 export const metadata: Metadata = {
@@ -33,9 +32,9 @@ export const metadata: Metadata = {
 
 export default function Home() {
   // データ取得
+  const allItems = getAllItems()
   const topRanking = getTopRanking(10)
   const categories = getAllCategories()
-  const newArrivals = getNewArrivals(5)
 
   // カテゴリ別 TOP3
   const categoryData = categories.map((category) => ({
@@ -52,13 +51,10 @@ export default function Home() {
         <HeroSection />
 
         {/* 総合ランキング TOP10 */}
-        <RankingSection items={topRanking} />
+        <RankingSection items={topRanking} totalCount={allItems.length} />
 
         {/* カテゴリ別ピックアップ */}
         <CategoryPickupSection categories={categoryData} />
-
-        {/* 新着アイテム */}
-        <NewArrivalsSection items={newArrivals} />
       </main>
 
       <Footer />

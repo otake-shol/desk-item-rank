@@ -87,11 +87,6 @@ export default async function ItemPage({ params }: ItemPageProps) {
                   className="object-cover"
                   sizes="(max-width: 1024px) 100vw, 50vw"
                 />
-                {item.isNew && (
-                  <span className="absolute left-4 top-4 rounded-full bg-[#00ff88] px-3 py-1 text-xs font-medium text-[#0a0a0f]">
-                    NEW
-                  </span>
-                )}
               </div>
 
               {/* 情報 */}
