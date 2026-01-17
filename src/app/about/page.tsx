@@ -9,11 +9,11 @@ import { Header, Footer } from '@/components'
 export const metadata: Metadata = {
   title: 'ランキングの仕組み',
   description:
-    'デスク・グッズ・ランクのスコア算出方法を解説。SNS・YouTube・note・Amazonの4つのソースからデータを収集し、独自のアルゴリズムでデスクグッズのランキングを算出しています。',
+    'デスクグッズランキングのスコア算出方法を解説。X・YouTube・noteの3つのソースからデータを収集し、独自のアルゴリズムでデスクグッズのランキングを算出しています。',
   openGraph: {
-    title: 'ランキングの仕組み | デスク・グッズ・ランク',
+    title: 'ランキングの仕組み | デスクグッズランキング',
     description:
-      'デスク・グッズ・ランクのスコア算出方法を解説。複数のデータソースから独自アルゴリズムでランキングを算出。',
+      'デスクグッズランキングのスコア算出方法を解説。複数のデータソースから独自アルゴリズムでランキングを算出。',
     url: '/about',
   },
 }
@@ -38,7 +38,7 @@ export default function AboutPage() {
               </h1>
             </div>
             <p className="text-[#8888a0] text-lg">
-              デスク・グッズ・ランクでは、複数のデータソースから情報を収集し、<br className="hidden sm:block" />
+              デスクグッズランキングでは、複数のデータソースから情報を収集し、<br className="hidden sm:block" />
               独自のアルゴリズムでデスクグッズのスコアを算出しています。
             </p>
           </div>
@@ -52,7 +52,7 @@ export default function AboutPage() {
               データソース
             </h2>
 
-            <div className="grid gap-4 sm:grid-cols-2">
+            <div className="grid gap-4 sm:grid-cols-3">
               {/* Twitter/X */}
               <div className="rounded-xl border border-white/10 bg-[#1a1a24] p-6">
                 <div className="flex items-center gap-3 mb-4">
@@ -107,24 +107,6 @@ export default function AboutPage() {
                 <div className="flex flex-wrap gap-2">
                   <span className="rounded-full bg-[#41c9b4]/10 px-3 py-1 text-xs text-[#41c9b4]">記事数</span>
                   <span className="rounded-full bg-[#41c9b4]/10 px-3 py-1 text-xs text-[#41c9b4]">スキ数</span>
-                </div>
-              </div>
-
-              {/* Amazon */}
-              <div className="rounded-xl border border-white/10 bg-[#1a1a24] p-6">
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-[#ff9900]/20">
-                    <svg className="h-5 w-5 text-[#ff9900]" fill="currentColor" viewBox="0 0 24 24">
-                      <path d="M.045 18.02c.072-.116.187-.124.348-.022 3.636 2.11 7.594 3.166 11.87 3.166 2.852 0 5.668-.533 8.447-1.595l.315-.14c.138-.06.234-.1.293-.13.226-.088.39-.046.493.126.11.19.03.404-.24.638-.39.34-.863.696-1.422 1.07a20.49 20.49 0 01-8.31 2.62c-3.98.403-7.73-.378-11.25-2.34-.192-.108-.27-.234-.235-.378.032-.135.133-.24.3-.318l-.01.002z" />
-                    </svg>
-                  </div>
-                  <h3 className="text-lg font-bold text-white">Amazon</h3>
-                </div>
-                <p className="text-[#8888a0] text-sm mb-4">
-                  商品情報と評価を参照。基本スコアとして50を付与。
-                </p>
-                <div className="flex flex-wrap gap-2">
-                  <span className="rounded-full bg-[#ff9900]/10 px-3 py-1 text-xs text-[#ff9900]">基本スコア</span>
                 </div>
               </div>
             </div>
@@ -290,7 +272,7 @@ export default function AboutPage() {
                   <h3 className="text-lg font-bold text-white">新規アイテム発見</h3>
                 </div>
                 <p className="text-[#8888a0] text-sm">
-                  複数のソースからデスク関連アイテムを自動発見・追加しています。
+                  毎週日曜日に複数のソースからデスク関連アイテムを自動発見・追加しています。
                 </p>
               </div>
             </div>

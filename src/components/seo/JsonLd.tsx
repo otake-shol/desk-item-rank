@@ -12,11 +12,11 @@ export function WebSiteJsonLd() {
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
-    name: 'デスク・グッズ・ランク',
+    name: 'デスクグッズランキング',
     alternateName: ['DeskGoodsRank', 'デスクグッズランク'],
     url: siteUrl,
     description:
-      'デスク・グッズ・ランクは、SNS・YouTube・Amazonのデータをもとにデスク環境アイテムの人気ランキングをお届け。',
+      'デスクグッズランキングは、SNS・YouTube・Amazonのデータをもとにデスク環境アイテムの人気ランキングをお届け。',
     potentialAction: {
       '@type': 'SearchAction',
       target: {
@@ -27,7 +27,7 @@ export function WebSiteJsonLd() {
     },
     publisher: {
       '@type': 'Organization',
-      name: 'デスク・グッズ・ランク',
+      name: 'デスクグッズランキング',
       url: siteUrl,
     },
   }
@@ -158,7 +158,7 @@ export function OrganizationJsonLd() {
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'Organization',
-    name: 'デスク・グッズ・ランク',
+    name: 'デスクグッズランキング',
     alternateName: ['DeskGoodsRank', 'デスクグッズランク'],
     url: siteUrl,
     logo: `${siteUrl}/icon.svg`,

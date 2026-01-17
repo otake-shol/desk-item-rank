@@ -32,9 +32,9 @@ export async function generateMetadata({
 
   return {
     title: `${categoryData.name}ランキング`,
-    description: `デスク・グッズ・ランクの${categoryData.name}カテゴリ人気ランキング。${categoryData.description}`,
+    description: `デスクグッズランキングの${categoryData.name}カテゴリ人気ランキング。${categoryData.description}`,
     openGraph: {
-      title: `${categoryData.name}ランキング | デスク・グッズ・ランク`,
+      title: `${categoryData.name}ランキング | デスクグッズランキング`,
       description: `${categoryData.name}カテゴリのデスクグッズ人気ランキング。`,
       url: `/ranking/${categoryData.id}`,
     },

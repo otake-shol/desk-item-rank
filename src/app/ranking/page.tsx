@@ -12,9 +12,9 @@ import { getTopRanking, getAllCategories } from '@/data'
 export const metadata: Metadata = {
   title: '全アイテムランキング',
   description:
-    'デスク・グッズ・ランクの全アイテム人気ランキング一覧。SNS・YouTube・note・Amazonのデータをもとに算出したスコアでデスクグッズを順位付け。',
+    'デスクグッズランキングの全アイテム人気ランキング一覧。SNS・YouTube・note・Amazonのデータをもとに算出したスコアでデスクグッズを順位付け。',
   openGraph: {
-    title: '全アイテムランキング | デスク・グッズ・ランク',
+    title: '全アイテムランキング | デスクグッズランキング',
     description:
       'デスク環境アイテムの人気ランキング一覧。データに基づいたスコアで順位付け。',
     url: '/ranking',
@@ -30,7 +30,7 @@ export default function RankingPage() {
     <div className="flex min-h-screen flex-col bg-[#0a0a0f]">
       <ItemListJsonLd
         items={allItems}
-        name="デスク・グッズ・ランク 全アイテムランキング"
+        name="デスクグッズランキング 全アイテムランキング"
         description="デスク環境アイテムの人気ランキング一覧"
         url="/ranking"
       />

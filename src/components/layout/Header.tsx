@@ -39,7 +39,7 @@ export function Header() {
               </svg>
             </div>
             <span className="text-base font-semibold text-white tracking-tight">
-              デスク・グッズ・ランク
+              デスクグッズランキング
             </span>
           </Link>
 

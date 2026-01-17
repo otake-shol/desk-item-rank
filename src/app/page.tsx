@@ -20,13 +20,13 @@ import {
 } from '@/data'
 
 export const metadata: Metadata = {
-  title: 'デスク・グッズ・ランク | デスク環境アイテム人気ランキング',
+  title: 'デスクグッズランキング | デスク環境アイテム人気ランキング',
   description:
-    'デスク・グッズ・ランクは、SNS・YouTube・Amazonのデータをもとにデスク環境アイテムの人気ランキングをお届け。モニター、キーボード、チェアなど、本当に人気のデスクグッズが見つかります。',
+    'デスクグッズランキングは、SNS・YouTube・Amazonのデータをもとにデスク環境アイテムの人気ランキングをお届け。モニター、キーボード、チェアなど、本当に人気のデスクグッズが見つかります。',
   openGraph: {
-    title: 'デスク・グッズ・ランク | デスク環境アイテム人気ランキング',
+    title: 'デスクグッズランキング | デスク環境アイテム人気ランキング',
     description:
-      'デスク・グッズ・ランクは、SNS・YouTube・Amazonのデータをもとに本当に人気のデスクグッズをランキング形式でお届け。',
+      'デスクグッズランキングは、SNS・YouTube・Amazonのデータをもとに本当に人気のデスクグッズをランキング形式でお届け。',
     type: 'website',
     url: '/',
   },
@@ -48,7 +48,7 @@ export default function Home() {
     <div className="flex min-h-screen flex-col">
       <ItemListJsonLd
         items={topRanking}
-        name="デスク・グッズ・ランク 総合人気ランキング TOP10"
+        name="デスクグッズランキング 総合人気ランキング TOP10"
         description="SNS・YouTube・Amazonのデータをもとに算出したデスクグッズの人気ランキング"
         url="/"
       />

@@ -19,7 +19,7 @@ export function HeroSection() {
           {/* 左側: テキスト */}
           <div>
             <p className="mb-1 text-xs text-[#00d4ff] font-medium tracking-wider">
-              デスク・グッズ・ランク
+              デスクグッズランキング
             </p>
             <h1 className="font-mono text-lg font-bold tracking-tight text-white sm:text-xl">
               デスクツアーで見つけた、

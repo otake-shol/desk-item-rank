@@ -32,7 +32,7 @@ export function Footer() {
                 </svg>
               </div>
               <span className="text-base font-semibold text-white tracking-tight">
-                デスク・グッズ・ランク
+                デスクグッズランキング
               </span>
             </Link>
             <p className="mt-4 text-sm text-[#8888a0]">
@@ -86,19 +86,7 @@ export function Footer() {
         {/* コピーライト */}
         <div className="mt-8 border-t border-white/5 pt-8 text-center">
           <p className="text-xs text-[#8888a0]">
-            &copy; {currentYear} デスク・グッズ・ランク All rights reserved.
-          </p>
-          {/* インスピレーション元への謝辞 */}
-          <p className="mt-3 sm:mt-4 text-xs text-[#8888a0]">
-            Inspired by{' '}
-            <a
-              href="https://techbookrank.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block rounded px-1.5 py-1 text-[#00d4ff] hover:underline active:bg-white/10 sm:px-0 sm:py-0"
-            >
-              テック・ブック・ランク
-            </a>
+            &copy; {currentYear} デスクグッズランキング All rights reserved.
           </p>
         </div>
       </div>

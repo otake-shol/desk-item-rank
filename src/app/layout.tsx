@@ -7,13 +7,13 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://desk-goods-rank.com
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: 'デスク・グッズ・ランク | デスク環境アイテム人気ランキング',
-    template: '%s | デスク・グッズ・ランク',
+    default: 'デスクグッズランキング | デスク環境アイテム人気ランキング',
+    template: '%s | デスクグッズランキング',
   },
   description:
-    'デスク・グッズ・ランクは、SNS・YouTube・Amazonのデータをもとにデスク環境アイテムの人気ランキングをお届け。モニター、キーボード、チェアなど、本当に人気のデスクグッズが見つかります。',
+    'デスクグッズランキングは、SNS・YouTube・Amazonのデータをもとにデスク環境アイテムの人気ランキングをお届け。モニター、キーボード、チェアなど、本当に人気のデスクグッズが見つかります。',
   keywords: [
-    'デスク・グッズ・ランク',
+    'デスクグッズランキング',
     'デスクグッズランク',
     'デスク環境',
     'デスクアイテム',
@@ -24,16 +24,16 @@ export const metadata: Metadata = {
     'デスクチェア',
     'ガジェット',
   ],
-  authors: [{ name: 'デスク・グッズ・ランク' }],
-  creator: 'デスク・グッズ・ランク',
-  publisher: 'デスク・グッズ・ランク',
+  authors: [{ name: 'デスクグッズランキング' }],
+  creator: 'デスクグッズランキング',
+  publisher: 'デスクグッズランキング',
   formatDetection: {
     telephone: false,
   },
   openGraph: {
     type: 'website',
     locale: 'ja_JP',
-    siteName: 'デスク・グッズ・ランク',
+    siteName: 'デスクグッズランキング',
   },
   twitter: {
     card: 'summary_large_image',

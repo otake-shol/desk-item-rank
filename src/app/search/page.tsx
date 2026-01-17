@@ -22,12 +22,12 @@ export async function generateMetadata({
       ? `「${query}」の検索結果`
       : '検索',
     description: query
-      ? `デスク・グッズ・ランクで「${query}」に関連するデスクグッズを検索`
-      : 'デスク・グッズ・ランクでデスク環境アイテムを検索',
+      ? `デスクグッズランキングで「${query}」に関連するデスクグッズを検索`
+      : 'デスクグッズランキングでデスク環境アイテムを検索',
     openGraph: {
       title: query
-        ? `「${query}」の検索結果 | デスク・グッズ・ランク`
-        : '検索 | デスク・グッズ・ランク',
+        ? `「${query}」の検索結果 | デスクグッズランキング`
+        : '検索 | デスクグッズランキング',
       url: `/search${query ? `?q=${encodeURIComponent(query)}` : ''}`,
     },
   }

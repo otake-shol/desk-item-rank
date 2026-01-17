@@ -34,9 +34,9 @@ export async function generateMetadata({
 
   return {
     title: item.name,
-    description: `${item.name}の詳細情報・レビュー・価格比較。デスク・グッズ・ランクのスコア: ${item.score}点。${item.shortDescription}`,
+    description: `${item.name}の詳細情報・レビュー・価格比較。デスクグッズランキングのスコア: ${item.score}点。${item.shortDescription}`,
     openGraph: {
-      title: `${item.name} | デスク・グッズ・ランク`,
+      title: `${item.name} | デスクグッズランキング`,
       description: `${item.name}の詳細情報。スコア: ${item.score}点`,
       url: `/item/${item.id}`,
       images: item.imageUrl ? [{ url: item.imageUrl, alt: item.name }] : [],
