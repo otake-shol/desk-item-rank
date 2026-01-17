@@ -14,7 +14,12 @@
     "collect-data:update": "tsx scripts/collect-data.ts --update",
     "discover-items": "tsx scripts/discover-items.ts",
     "discover-items:save": "tsx scripts/discover-items.ts --save",
-    "merge-items": "tsx scripts/merge-discovered-items.ts --apply"
+    "merge-items": "tsx scripts/merge-discovered-items.ts --apply",
+    "item": "tsx scripts/item-manager.ts",
+    "item:list": "tsx scripts/item-manager.ts list",
+    "item:hide": "tsx scripts/item-manager.ts hide",
+    "item:show": "tsx scripts/item-manager.ts show",
+    "item:curate": "tsx scripts/item-manager.ts curate"
   },
   "dependencies": {
     "next": "16.1.2",

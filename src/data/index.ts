@@ -9,10 +9,17 @@ import { Item } from '@/types/item'
 import { Category, CategoryId } from '@/types/category'
 
 /**
- * 全アイテム取得（画像がないアイテムは除外）
+ * 全アイテム取得（非表示・画像なしアイテムは除外）
+ * - status が 'hidden' のアイテムは除外
+ * - scoreOverride がある場合はスコアを上書き
  */
 export function getAllItems(): Item[] {
-  return (itemsData.items as Item[]).filter((item) => item.imageUrl)
+  return (itemsData.items as Item[])
+    .filter((item) => item.imageUrl && item.status !== 'hidden')
+    .map((item) => ({
+      ...item,
+      score: item.scoreOverride ?? item.score,
+    }))
 }
 
 /**
