@@ -190,7 +190,7 @@
       "description": "業界最高クラスのノイズキャンセリング性能。30時間再生可能。",
       "shortDescription": "最強ノイキャンのワイヤレスヘッドホン",
       "imageUrl": "https://m.media-amazon.com/images/I/51XfJ5EK19L._AC_SL500_.jpg",
-      "category": "device",
+      "category": "audio",
       "subCategory": "headphone",
       "score": 64,
       "amazon": {
@@ -493,7 +493,7 @@
       "shortDescription": "本革の上質デスクマット",
       "imageUrl": null,
       "needsImageReview": true,
-      "category": "lighting",
+      "category": "accessory",
       "subCategory": "desk-mat",
       "score": 28,
       "amazon": {
@@ -2795,7 +2795,7 @@
       "shortDescription": "M.2 2280mm SSD両面ヒートシンク、PC / PS",
       "imageUrl": "https://m.media-amazon.com/images/I/61miot8uYDL._AC_SL500_.jpg",
       "needsImageReview": false,
-      "category": "device",
+      "category": "audio",
       "subCategory": "headphone",
       "score": 31,
       "amazon": {
@@ -2830,7 +2830,7 @@
       "shortDescription": "Tuloka 4個ヒートシンク 導熱接着シート4pcs付き ",
       "imageUrl": "https://m.media-amazon.com/images/I/617OYgxvZUL._AC_SL500_.jpg",
       "needsImageReview": false,
-      "category": "device",
+      "category": "audio",
       "subCategory": "headphone",
       "score": 19,
       "amazon": {
@@ -2865,7 +2865,7 @@
       "shortDescription": "M.2ヒートシンク合金アルミニウムNGFFヒートシンクNVM",
       "imageUrl": "https://m.media-amazon.com/images/I/61CxhO7tlbL._AC_SL500_.jpg",
       "needsImageReview": false,
-      "category": "device",
+      "category": "audio",
       "subCategory": "headphone",
       "score": 36,
       "amazon": {
@@ -2929,7 +2929,7 @@
       "shortDescription": "GLOTRENDS M.2 ヒートシンク(2280 M.2 ",
       "imageUrl": "https://m.media-amazon.com/images/I/71Ol8ThrjdL._SL500_.jpg",
       "needsImageReview": false,
-      "category": "device",
+      "category": "audio",
       "subCategory": "headphone",
       "score": 26,
       "amazon": {
@@ -2964,7 +2964,7 @@
       "shortDescription": "Mauknci 1個 銅製 M.2 SSD ヒートシンク 1",
       "imageUrl": "https://m.media-amazon.com/images/I/61jKpJzMaFL._SL500_.jpg",
       "needsImageReview": false,
-      "category": "device",
+      "category": "audio",
       "subCategory": "headphone",
       "score": 19,
       "amazon": {
@@ -3588,7 +3588,7 @@
       "shortDescription": "エイプリル(April) PaperOne コピー用紙 A4",
       "imageUrl": "https://m.media-amazon.com/images/I/71pQQ5GGFOL._AC_SL500_.jpg",
       "needsImageReview": false,
-      "category": "lighting",
+      "category": "accessory",
       "subCategory": "desk-mat",
       "score": 18,
       "amazon": {
@@ -3623,7 +3623,7 @@
       "shortDescription": "コクヨ コピー用紙 A4 白色度80% 紙厚0.09mm 5",
       "imageUrl": "https://m.media-amazon.com/images/I/615g3CqbX6L._AC_SL500_.jpg",
       "needsImageReview": false,
-      "category": "lighting",
+      "category": "accessory",
       "subCategory": "desk-mat",
       "score": 20,
       "amazon": {
@@ -3658,7 +3658,7 @@
       "shortDescription": "エイピーピー・ジャパン(APPJ) APP 高白色 ホワイト",
       "imageUrl": "https://m.media-amazon.com/images/I/61zVLFyjckL._AC_SL500_.jpg",
       "needsImageReview": false,
-      "category": "lighting",
+      "category": "accessory",
       "subCategory": "desk-mat",
       "score": 17,
       "amazon": {
@@ -3693,7 +3693,7 @@
       "shortDescription": "鬼ピタ 魔法のテープ 両面テープ はがせる 超強力 マステ付",
       "imageUrl": "https://m.media-amazon.com/images/I/71qhIo3oCAL._AC_SL500_.jpg",
       "needsImageReview": false,
-      "category": "lighting",
+      "category": "accessory",
       "subCategory": "desk-mat",
       "score": 22,
       "amazon": {
@@ -3739,7 +3739,7 @@
       "shortDescription": "【4枚セット】Sediven 3dシール 立体シール ぷくぷ",
       "imageUrl": "https://m.media-amazon.com/images/I/81YCe4WJuQL._AC_SL500_.jpg",
       "needsImageReview": false,
-      "category": "lighting",
+      "category": "accessory",
       "subCategory": "desk-mat",
       "score": 36,
       "amazon": {
@@ -4262,7 +4262,7 @@
       "shortDescription": "Anker Soundcore P40i (Bluetoot",
       "imageUrl": "https://m.media-amazon.com/images/I/61pM3SGOAHL._AC_SL500_.jpg",
       "needsImageReview": false,
-      "category": "device",
+      "category": "audio",
       "subCategory": "earphone",
       "score": 0,
       "amazon": {
@@ -4631,7 +4631,7 @@
       "shortDescription": "【2025年アップグレード版】AOKIMI ワイヤレスイヤホ",
       "imageUrl": "https://m.media-amazon.com/images/I/51DrOzVhYqL._AC_SL500_.jpg",
       "needsImageReview": false,
-      "category": "device",
+      "category": "audio",
       "subCategory": "earphone",
       "score": 0,
       "amazon": {
@@ -4667,7 +4667,7 @@
       "shortDescription": "Anker Soundcore P31i (Bluetoot",
       "imageUrl": "https://m.media-amazon.com/images/I/51nHT2kQ1bL._AC_SL500_.jpg",
       "needsImageReview": false,
-      "category": "device",
+      "category": "audio",
       "subCategory": "earphone",
       "score": 0,
       "amazon": {
@@ -4703,7 +4703,7 @@
       "shortDescription": "Bluetoothイヤホン ワイヤレスイヤホン IPX7防水",
       "imageUrl": "https://m.media-amazon.com/images/I/41pv1n-f9yL._AC_SL500_.jpg",
       "needsImageReview": false,
-      "category": "device",
+      "category": "audio",
       "subCategory": "earphone",
       "score": 0,
       "amazon": {
@@ -4739,7 +4739,7 @@
       "shortDescription": "イヤホン Bluetooth ワイヤレスイヤホン 4つのシリ",
       "imageUrl": "https://m.media-amazon.com/images/I/41GnzcHjNxL._AC_SL500_.jpg",
       "needsImageReview": false,
-      "category": "device",
+      "category": "audio",
       "subCategory": "earphone",
       "score": 0,
       "amazon": {
@@ -4775,7 +4775,7 @@
       "shortDescription": "玄人志向 グラフィックボード NVIDIA GeForce ",
       "imageUrl": "https://m.media-amazon.com/images/I/81vR469taYL._AC_SL500_.jpg",
       "needsImageReview": false,
-      "category": "device",
+      "category": "audio",
       "subCategory": "speaker",
       "score": 0,
       "amazon": {
